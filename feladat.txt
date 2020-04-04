@@ -1,0 +1,34 @@
+Írj két json rest alapú mikroszervízt, amelyek elvégzik a megadott adatszerkezet validációját és kiegészítését.
+
+1-es mikroszervíz: ellenőrizze le a kapott SzemélyDTO-t. A hibákat gyűjtse össze egy listába, amit válaszként adjon vissza. Hívja meg a 2-es mikroszervízt a Cím datok validálásaára.
+Egészítse ki az Állampolgárság Dekod-ot és adja vissza a kiegészített SzemélyDTO-t is.
+
+2-es mikroszervíz: ellenőrizze le a kapott OkmányDTO-kat. A hibákat gyűjtse össze egy listába, amit válaszként adjon vissza. Állapítsa meg az Érvényesség-et és adja vissza kiegészített OkmányDTO-t.
+
+Használj springboot 2.1.3-at. A szervízek hívhatják egymást http-n, nincs szükség elosztott működésre.
+
+SzemélyDTO:
+            Viselt Neve: Legalább két névelemnek kell lennie, a kezdő vagy befejező Dr.-on kívül
+                        magyar ABC plussz Ä, pont, perjel, aposztróf, kötőjel és szóköz
+                        Max 80
+            Születési neve: : Legalább két névelemnek kell lennie, a kezdő vagy befejező Dr.-on kívül
+                        magyar ABC plussz Ä, pont, perjel, aposztróf, kötőjel és szóköz
+                        Max 80
+			Anyja neve: Legalább két névelemnek kell lennie, a kezdő vagy befejező Dr.-on kívül
+                        magyar ABC plussz Ä, pont, perjel, aposztróf, kötőjel és szóköz
+                        Max 80
+			Születési idő: dátum, minimum 18 max 120 éves
+            Neme: F vagy N
+            Állampolgárság: 3 karakter, ellenőrizni json szótárból: kodszotar21_allampolg.json
+            Állampolgárság Dekod: érkezéskor üres, egészítse ki a json szótárból a "allampolgarsag" mezőből
+            Okmánylista: az illető okmányainak listája. Egy személyhez tartozhat több ugyanolyan típusú okmány, de egy típusból csak egy lehet érvényes.
+            
+OkmányDTO:
+            Okmánytípus: 1 karakter, json szótárból ellenőrizni: kodszotar46_okmanytipus.json
+            Okmányszám: 1: szig: 6 szám + 2 betű; 2: utl 2 betű + 7 szám; 3: ven: nemtom, egyéb bármi max 10
+            Okmánykép: jpeg típusúnak kell lennie, 1063 * 827 méretűnek
+            Lejárati idő: dátum
+            Érvényesség: érkezéskor üres, számítandó, amennyiben az érvényességi idő még jövőbeni
+
+
+

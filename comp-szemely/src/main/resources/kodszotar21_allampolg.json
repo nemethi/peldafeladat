@@ -1,0 +1,1855 @@
+{
+  "dictname": "kodszotar21_allampolg",
+  "rows": [
+    {
+      "kod": "CAN",
+      "allampolgarsag": "KANADA ÁLLAMPOLGÁRA",
+      "orszag": "KANADA",
+      "schengen": "CA",
+      "sis1_orsz": "CANADA",
+      "sis1_orsz_hun": "KANADA"
+    },
+    {
+      "kod": "CXR",
+      "allampolgarsag": "KARÁCSONY-SZIGET ÁLLAMPOLGÁRA",
+      "orszag": "KARÁCSONY-SZIGET"
+    },
+    {
+      "kod": "QAT",
+      "allampolgarsag": "KATAR ÁLLAMPOLGÁRA",
+      "orszag": "KATAR",
+      "schengen": "QA",
+      "sis1_orsz": "QATAR",
+      "sis1_orsz_hun": "KATAR"
+    },
+    {
+      "kod": "KAZ",
+      "allampolgarsag": "KAZAHSZTÁN ÁLLAMPOLGÁRA",
+      "orszag": "KAZAHSZTÁN",
+      "schengen": "1I",
+      "sis1_orsz": "KAZAKHSTAN",
+      "sis1_orsz_hun": "KAZAHSZTÁN"
+    },
+    {
+      "kod": "TMP",
+      "allampolgarsag": "KELET-TIMOR ÁLLAMPOLGÁRA",
+      "orszag": "KELET-TIMOR",
+      "schengen": "TL",
+      "sis1_orsz": "TIMOR-LESTE",
+      "sis1_orsz_hun": "KELET-TIMOR"
+    },
+    {
+      "kod": "KEN",
+      "allampolgarsag": "KENYA ÁLLAMPOLGÁRA",
+      "orszag": "KENYA",
+      "schengen": "KE",
+      "sis1_orsz": "KENYA",
+      "sis1_orsz_hun": "KENYA"
+    },
+    {
+      "kod": "KGZ",
+      "allampolgarsag": "KIRGÍZIA ÁLLAMPOLGÁRA",
+      "orszag": "KIRGÍZIA",
+      "schengen": "1J",
+      "sis1_orsz": "QUIRGUIZIA",
+      "sis1_orsz_hun": "KIRGISZTÁN"
+    },
+    {
+      "kod": "KIR",
+      "allampolgarsag": "KIRIBATI ÁLLAMPOLGÁRA",
+      "orszag": "KIRIBATI",
+      "schengen": "KI",
+      "sis1_orsz": "KIRIBATI",
+      "sis1_orsz_hun": "KIRIBATI"
+    },
+    {
+      "kod": "COL",
+      "allampolgarsag": "KOLUMBIA ÁLLAMPOLGÁRA",
+      "orszag": "KOLUMBIA",
+      "schengen": "CO",
+      "sis1_orsz": "COLOMBIA",
+      "sis1_orsz_hun": "KOLUMBIA"
+    },
+    {
+      "kod": "COG",
+      "allampolgarsag": "KONGÓ ÁLLAMPOLGÁRA",
+      "orszag": "KONGÓ"
+    },
+    {
+      "kod": "COD",
+      "allampolgarsag": "KONGÓI DEMOKRATIKUS KÖZTÁRSASÁG ÁLLAMPOLGÁRA",
+      "orszag": "KONGÓI DEMOKRATIKUS KÖZTÁRSASÁG",
+      "schengen": "CG",
+      "sis1_orsz": "CONGO, REPUBLIC OF",
+      "sis1_orsz_hun": "KONGÓI KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "PRK",
+      "allampolgarsag": "KOREA/ÉSZAK/ ÁLLAMPOLGÁRA",
+      "orszag": "KOREA/ÉSZAK/",
+      "schengen": "KP",
+      "sis1_orsz": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
+      "sis1_orsz_hun": "KOREAI DEMOKRATIKUS KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "KOR",
+      "allampolgarsag": "KOREAI KÖZTÁRSASÁG ÁLLAMPOLGÁRA",
+      "orszag": "KOREAI KÖZTÁRSASÁG",
+      "schengen": "KR",
+      "sis1_orsz": "KOREA, REPUBLIC OF",
+      "sis1_orsz_hun": "KOREAI KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "XXK",
+      "allampolgarsag": "KOSZOVÓ ÁLLAMPOLGÁRA",
+      "orszag": "KOSZOVÓ"
+    },
+    {
+      "kod": "CUB",
+      "allampolgarsag": "KUBA ÁLLAMPOLGÁRA",
+      "orszag": "KUBA",
+      "schengen": "CU",
+      "sis1_orsz": "CUBA",
+      "sis1_orsz_hun": "KUBA"
+    },
+    {
+      "kod": "KWT",
+      "allampolgarsag": "KUVAIT ÁLLAMPOLGÁRA",
+      "orszag": "KUVAIT",
+      "schengen": "KW",
+      "sis1_orsz": "KUWAIT",
+      "sis1_orsz_hun": "KUWAIT"
+    },
+    {
+      "kod": "CHN",
+      "allampolgarsag": "KÍNA ÁLLAMPOLGÁRA",
+      "orszag": "KÍNA",
+      "schengen": "CN",
+      "sis1_orsz": "CHINA",
+      "sis1_orsz_hun": "KÍNA"
+    },
+    {
+      "kod": "CCK",
+      "allampolgarsag": "KÓKUSZ-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "KÓKUSZ-SZIGETEK"
+    },
+    {
+      "kod": "CAF",
+      "allampolgarsag": "KÖZÉP-AFRIKAI KÖZTÁRSASÁG ÁLLAMPOLGÁRA",
+      "orszag": "KÖZÉP-AFRIKAI KÖZTÁRSASÁG",
+      "schengen": "CF",
+      "sis1_orsz": "CENTRAL AFRICAN REPUBLIC",
+      "sis1_orsz_hun": "KÖZÉP-AFRIKAI KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "LAO",
+      "allampolgarsag": "LAOSZ ÁLLAMPOLGÁRA",
+      "orszag": "LAOSZ",
+      "schengen": "LA",
+      "sis1_orsz": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+      "sis1_orsz_hun": "LAOSZ (LAOSZI NÉPI DEMOKRATIKUS KÖZTÁRSASÁG)"
+    },
+    {
+      "kod": "POL",
+      "allampolgarsag": "LENGYELORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "LENGYELORSZÁG",
+      "schengen": "PL",
+      "sis1_orsz": "POLAND",
+      "sis1_orsz_hun": "LENGYELORSZÁG"
+    },
+    {
+      "kod": "LSO",
+      "allampolgarsag": "LESOTHO ÁLLAMPOLGÁRA",
+      "orszag": "LESOTHO",
+      "schengen": "LS",
+      "sis1_orsz": "LESOTHO",
+      "sis1_orsz_hun": "LESOTHO"
+    },
+    {
+      "kod": "LVA",
+      "allampolgarsag": "LETTORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "LETTORSZÁG",
+      "schengen": "LE",
+      "sis1_orsz": "LATVIA",
+      "sis1_orsz_hun": "LETTORSZÁG"
+    },
+    {
+      "kod": "LBN",
+      "allampolgarsag": "LIBANON ÁLLAMPOLGÁRA",
+      "orszag": "LIBANON",
+      "schengen": "LB",
+      "sis1_orsz": "LEBANON",
+      "sis1_orsz_hun": "LIBANON"
+    },
+    {
+      "kod": "LBR",
+      "allampolgarsag": "LIBÉRIA ÁLLAMPOLGÁRA",
+      "orszag": "LIBÉRIA",
+      "schengen": "LR",
+      "sis1_orsz": "LIBERIA",
+      "sis1_orsz_hun": "LIBÉRIA"
+    },
+    {
+      "kod": "LIE",
+      "allampolgarsag": "LIECHTENSTEIN ÁLLAMPOLGÁRA",
+      "orszag": "LIECHTENSTEIN",
+      "schengen": "LI",
+      "sis1_orsz": "LIECHTENSTEIN",
+      "sis1_orsz_hun": "LIECHTENSTEIN"
+    },
+    {
+      "kod": "LTU",
+      "allampolgarsag": "LITVÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "LITVÁNIA",
+      "schengen": "LT",
+      "sis1_orsz": "LITHUANIA",
+      "sis1_orsz_hun": "LITVÁNIA"
+    },
+    {
+      "kod": "LUX",
+      "allampolgarsag": "LUXEMBURG ÁLLAMPOLGÁRA",
+      "orszag": "LUXEMBURG",
+      "schengen": "LU",
+      "sis1_orsz": "LUXEMBURG",
+      "sis1_orsz_hun": "LUXEMBURG"
+    },
+    {
+      "kod": "LBY",
+      "allampolgarsag": "LÍBIA ÁLLAMPOLGÁRA",
+      "orszag": "LÍBIA",
+      "schengen": "LY",
+      "sis1_orsz": "LIBYAN ARAB JAMAHIRIYA",
+      "sis1_orsz_hun": "LÍBIAI ARAB KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "MKD",
+      "allampolgarsag": "MACEDÓNIA ÁLLAMPOLGÁRA",
+      "orszag": "MACEDÓNIA"
+    },
+    {
+      "kod": "MDG",
+      "allampolgarsag": "MADAGASZKÁR ÁLLAMPOLGÁRA",
+      "orszag": "MADAGASZKÁR",
+      "schengen": "MG",
+      "sis1_orsz": "MADAGASCAR",
+      "sis1_orsz_hun": "MADAGASZKÁR"
+    },
+    {
+      "kod": "999",
+      "allampolgarsag": "MAGYAR ÁLLAMPOLGÁRSÁGA MEGSZŰNT",
+      "orszag": "-"
+    },
+    {
+      "kod": "HUN",
+      "allampolgarsag": "MAGYARORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "MAGYARORSZÁG",
+      "schengen": "HU",
+      "sis1_orsz": "HUNGARY",
+      "sis1_orsz_hun": "MAGYARORSZÁG"
+    },
+    {
+      "kod": "MAC",
+      "allampolgarsag": "MAKAÓ ÁLLAMPOLGÁRA",
+      "orszag": "MAKAÓ",
+      "schengen": "MO",
+      "sis1_orsz": "MACAU",
+      "sis1_orsz_hun": "MAKAÓ (KÍNA)"
+    },
+    {
+      "kod": "MYS",
+      "allampolgarsag": "MALAJZIA ÁLLAMPOLGÁRA",
+      "orszag": "MALAJZIA",
+      "schengen": "MY",
+      "sis1_orsz": "MALAYSIA",
+      "sis1_orsz_hun": "MALAJZIA"
+    },
+    {
+      "kod": "MWI",
+      "allampolgarsag": "MALAWI ÁLLAMPOLGÁRA",
+      "orszag": "MALAWI",
+      "schengen": "MW",
+      "sis1_orsz": "MALAWI",
+      "sis1_orsz_hun": "MALAWI"
+    },
+    {
+      "kod": "MDV",
+      "allampolgarsag": "MALDÍV-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "MALDÍV-SZIGETEK",
+      "schengen": "MV",
+      "sis1_orsz": "MALDIVES",
+      "sis1_orsz_hun": "MALDÍV-SZIGETEK"
+    },
+    {
+      "kod": "MLI",
+      "allampolgarsag": "MALI ÁLLAMPOLGÁRA",
+      "orszag": "MALI",
+      "schengen": "ML",
+      "sis1_orsz": "MALI",
+      "sis1_orsz_hun": "MALI"
+    },
+    {
+      "kod": "MAR",
+      "allampolgarsag": "MAROKKÓ ÁLLAMPOLGÁRA",
+      "orszag": "MAROKKÓ",
+      "schengen": "MA",
+      "sis1_orsz": "MOROCCO",
+      "sis1_orsz_hun": "MAROKKÓ"
+    },
+    {
+      "kod": "MHL",
+      "allampolgarsag": "MARSCHALL-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "MARSCHALL-SZIGETEK",
+      "schengen": "MH",
+      "sis1_orsz": "MARSHALL ISLANDS",
+      "sis1_orsz_hun": "MARSHALL-SZIGETEK"
+    },
+    {
+      "kod": "MTQ",
+      "allampolgarsag": "MARTINIQUE ÁLLAMPOLGÁRA",
+      "orszag": "MARTINIQUE"
+    },
+    {
+      "kod": "MUS",
+      "allampolgarsag": "MAURITIUS ÁLLAMPOLGÁRA",
+      "orszag": "MAURITIUS",
+      "schengen": "MU",
+      "sis1_orsz": "MAURITIUS",
+      "sis1_orsz_hun": "MAURITIUS"
+    },
+    {
+      "kod": "MRT",
+      "allampolgarsag": "MAURITÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "MAURITÁNIA",
+      "schengen": "MR",
+      "sis1_orsz": "MAURITANIA",
+      "sis1_orsz_hun": "MAURITÁNIA"
+    },
+    {
+      "kod": "MYT",
+      "allampolgarsag": "MAYOTTE ÁLLAMPOLGÁRA",
+      "orszag": "MAYOTTE"
+    },
+    {
+      "kod": "MEX",
+      "allampolgarsag": "MEXIKÓ ÁLLAMPOLGÁRA",
+      "orszag": "MEXIKÓ",
+      "schengen": "MX",
+      "sis1_orsz": "MEXICO",
+      "sis1_orsz_hun": "MEXIKÓ"
+    },
+    {
+      "kod": "MMR",
+      "allampolgarsag": "MIANMAR ÁLLAMPOLGÁRA",
+      "orszag": "MIANMAR",
+      "schengen": "1L",
+      "sis1_orsz": "MYANMAR",
+      "sis1_orsz_hun": "MIANMAR"
+    },
+    {
+      "kod": "FSM",
+      "allampolgarsag": "MIKRONÉZIA ÁLLAMPOLGÁRA",
+      "orszag": "MIKRONÉZIA",
+      "schengen": "FM",
+      "sis1_orsz": "MICRONESIA, FEDERATED STATES OF",
+      "sis1_orsz_hun": "MIKRONÉZIAI SZÖVETSÉGI ÁLLAMOK"
+    },
+    {
+      "kod": "MDA",
+      "allampolgarsag": "MOLDOVA ÁLLAMPOLGÁRA",
+      "orszag": "MOLDOVA",
+      "schengen": "1K",
+      "sis1_orsz": "MOLDOVA, REPUBLIC OF",
+      "sis1_orsz_hun": "MOLDOVAI KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "MCO",
+      "allampolgarsag": "MONACO ÁLLAMPOLGÁRA",
+      "orszag": "MONACO",
+      "schengen": "MC",
+      "sis1_orsz": "MONACO",
+      "sis1_orsz_hun": "MONACO"
+    },
+    {
+      "kod": "MNG",
+      "allampolgarsag": "MONGÓLIA ÁLLAMPOLGÁRA",
+      "orszag": "MONGÓLIA",
+      "schengen": "MN",
+      "sis1_orsz": "MONGOLIA",
+      "sis1_orsz_hun": "MONGÓLIA"
+    },
+    {
+      "kod": "MNE",
+      "allampolgarsag": "MONTENEGRÓ ÁLLAMPOLGÁRA",
+      "orszag": "MONTENEGRÓ"
+    },
+    {
+      "kod": "MSR",
+      "allampolgarsag": "MONTSERRAT ÁLLAMPOLGÁRA",
+      "orszag": "MONTSERRAT"
+    },
+    {
+      "kod": "MOZ",
+      "allampolgarsag": "MOZAMBIK ÁLLAMPOLGÁRA",
+      "orszag": "MOZAMBIK",
+      "schengen": "MZ",
+      "sis1_orsz": "MOZAMBIQUE",
+      "sis1_orsz_hun": "MOZAMBIK"
+    },
+    {
+      "kod": "MLT",
+      "allampolgarsag": "MÁLTA ÁLLAMPOLGÁRA",
+      "orszag": "MÁLTA",
+      "schengen": "MT",
+      "sis1_orsz": "MALTA",
+      "sis1_orsz_hun": "MÁLTA"
+    },
+    {
+      "kod": "GBR",
+      "allampolgarsag": "NAGYBRITANNIA ÁLLAMPOLGÁRA",
+      "orszag": "NAGYBRITANNIA",
+      "schengen": "GB",
+      "sis1_orsz": "UNITED KINGDOM",
+      "sis1_orsz_hun": "EGYESÜLT KIRÁLYSÁG"
+    },
+    {
+      "kod": "NAM",
+      "allampolgarsag": "NAMÍBIA ÁLLAMPOLGÁRA",
+      "orszag": "NAMÍBIA",
+      "schengen": "NA",
+      "sis1_orsz": "NAMIBIA",
+      "sis1_orsz_hun": "NAMÍBIA"
+    },
+    {
+      "kod": "NRU",
+      "allampolgarsag": "NAURU ÁLLAMPOLGÁRA",
+      "orszag": "NAURU",
+      "schengen": "NR",
+      "sis1_orsz": "NAURU",
+      "sis1_orsz_hun": "NAURU"
+    },
+    {
+      "kod": "NPL",
+      "allampolgarsag": "NEPÁL ÁLLAMPOLGÁRA",
+      "orszag": "NEPÁL",
+      "schengen": "NP",
+      "sis1_orsz": "NEPAL",
+      "sis1_orsz_hun": "NEPÁL"
+    },
+    {
+      "kod": "NIC",
+      "allampolgarsag": "NICARAGUA ÁLLAMPOLGÁRA",
+      "orszag": "NICARAGUA",
+      "schengen": "NI",
+      "sis1_orsz": "NICARAGUA",
+      "sis1_orsz_hun": "NICARAGUA"
+    },
+    {
+      "kod": "NER",
+      "allampolgarsag": "NIGER ÁLLAMPOLGÁRA",
+      "orszag": "NIGER",
+      "schengen": "NE",
+      "sis1_orsz": "NIGER",
+      "sis1_orsz_hun": "NIGER"
+    },
+    {
+      "kod": "NGA",
+      "allampolgarsag": "NIGÉRIA ÁLLAMPOLGÁRA",
+      "orszag": "NIGÉRIA",
+      "schengen": "NG",
+      "sis1_orsz": "NIGERIA",
+      "sis1_orsz_hun": "NIGÉRIA"
+    },
+    {
+      "kod": "NIU",
+      "allampolgarsag": "NIUE ÁLLAMPOLGÁRA",
+      "orszag": "NIUE"
+    },
+    {
+      "kod": "NFK",
+      "allampolgarsag": "NORFOLK-SZIGET ÁLLAMPOLGÁRA",
+      "orszag": "NORFOLK-SZIGET"
+    },
+    {
+      "kod": "NOR",
+      "allampolgarsag": "NORVÉGIA ÁLLAMPOLGÁRA",
+      "orszag": "NORVÉGIA",
+      "schengen": "NO",
+      "sis1_orsz": "NORWAY",
+      "sis1_orsz_hun": "NORVÉGIA"
+    },
+    {
+      "kod": "ESH",
+      "allampolgarsag": "NYUGAT-SZAHARA ÁLLAMPOLGÁRA",
+      "orszag": "NYUGAT-SZAHARA"
+    },
+    {
+      "kod": "WSM",
+      "allampolgarsag": "NYUGAT-SZAMOA ÁLLAMPOLGÁRA",
+      "orszag": "NYUGAT-SZAMOA",
+      "schengen": "WS",
+      "sis1_orsz": "SAMOA",
+      "sis1_orsz_hun": "SZAMOA"
+    },
+    {
+      "kod": "DEU",
+      "allampolgarsag": "NÉMETORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "NÉMETORSZÁG",
+      "schengen": "DE",
+      "sis1_orsz": "GERMANY",
+      "sis1_orsz_hun": "NÉMETORSZÁG"
+    },
+    {
+      "kod": "ITA",
+      "allampolgarsag": "OLASZORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "OLASZORSZÁG",
+      "schengen": "IT",
+      "sis1_orsz": "ITALY",
+      "sis1_orsz_hun": "OLASZORSZÁG"
+    },
+    {
+      "kod": "OMN",
+      "allampolgarsag": "OMÁN ÁLLAMPOLGÁRA",
+      "orszag": "OMÁN",
+      "schengen": "OM",
+      "sis1_orsz": "OMAN",
+      "sis1_orsz_hun": "OMÁN"
+    },
+    {
+      "kod": "RUS",
+      "allampolgarsag": "OROSZORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "OROSZORSZÁG",
+      "schengen": "1P",
+      "sis1_orsz": "RUSSIAN FEDERATION",
+      "sis1_orsz_hun": "OROSZORSZÁGI FÖDERÁCIÓ"
+    },
+    {
+      "kod": "PAK",
+      "allampolgarsag": "PAKISZTÁN ÁLLAMPOLGÁRA",
+      "orszag": "PAKISZTÁN",
+      "schengen": "PK",
+      "sis1_orsz": "PAQUISTAN",
+      "sis1_orsz_hun": "PAKISZTÁN"
+    },
+    {
+      "kod": "PLW",
+      "allampolgarsag": "PALAU ÁLLAMPOLGÁRA",
+      "orszag": "PALAU"
+    },
+    {
+      "kod": "PSE",
+      "allampolgarsag": "PALESZTINA ÁLLAMPOLGÁRA",
+      "orszag": "PALESZTINA",
+      "schengen": "1X",
+      "sis1_orsz": "PALESTINIAN TERRITORY, Occupied",
+      "sis1_orsz_hun": "PALESZTINA"
+    },
+    {
+      "kod": "PAN",
+      "allampolgarsag": "PANAMA ÁLLAMPOLGÁRA",
+      "orszag": "PANAMA",
+      "schengen": "PA",
+      "sis1_orsz": "PANAMA",
+      "sis1_orsz_hun": "PANAMA"
+    },
+    {
+      "kod": "PRY",
+      "allampolgarsag": "PARAGUAY ÁLLAMPOLGÁRA",
+      "orszag": "PARAGUAY",
+      "schengen": "PY",
+      "sis1_orsz": "PARAGUAY",
+      "sis1_orsz_hun": "PARAGUAY"
+    },
+    {
+      "kod": "PER",
+      "allampolgarsag": "PERU ÁLLAMPOLGÁRA",
+      "orszag": "PERU",
+      "schengen": "PE",
+      "sis1_orsz": "PERU",
+      "sis1_orsz_hun": "PERU"
+    },
+    {
+      "kod": "PCN",
+      "allampolgarsag": "PITCAIRN-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "PITCAIRN-SZIGETEK"
+    },
+    {
+      "kod": "PRT",
+      "allampolgarsag": "PORTUGÁLIA ÁLLAMPOLGÁRA",
+      "orszag": "PORTUGÁLIA",
+      "schengen": "PT",
+      "sis1_orsz": "PORTUGAL",
+      "sis1_orsz_hun": "PORTUGÁLIA"
+    },
+    {
+      "kod": "PRI",
+      "allampolgarsag": "PUERTO RICO ÁLLAMPOLGÁRA",
+      "orszag": "PUERTO RICO"
+    },
+    {
+      "kod": "PNG",
+      "allampolgarsag": "PÁPUA ÚJ-GUINEA ÁLLAMPOLGÁRA",
+      "orszag": "PÁPUA ÚJ-GUINEA",
+      "schengen": "1O",
+      "sis1_orsz": "PAPUA NEW GUINEA",
+      "sis1_orsz_hun": "PÁPUA ÚJ-GUINEA"
+    },
+    {
+      "kod": "ROU",
+      "allampolgarsag": "ROMÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "ROMÁNIA",
+      "schengen": "RO",
+      "sis1_orsz": "ROMANIA",
+      "sis1_orsz_hun": "ROMÁNIA"
+    },
+    {
+      "kod": "ROM",
+      "allampolgarsag": "ROMÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "ROMÁNIA",
+      "schengen": "RO",
+      "sis1_orsz": "ROMANIA",
+      "sis1_orsz_hun": "ROMÁNIA"
+    },
+    {
+      "kod": "RWA",
+      "allampolgarsag": "RUANDA ÁLLAMPOLGÁRA",
+      "orszag": "RUANDA",
+      "schengen": "RW",
+      "sis1_orsz": "RWANDA",
+      "sis1_orsz_hun": "RUANDA"
+    },
+    {
+      "kod": "REU",
+      "allampolgarsag": "RÉUNION ÁLLAMPOLGÁRA",
+      "orszag": "RÉUNION"
+    },
+    {
+      "kod": "LCA",
+      "allampolgarsag": "SAINT LUCIA ÁLLAMPOLGÁRA",
+      "orszag": "SAINT LUCIA",
+      "schengen": "LC",
+      "sis1_orsz": "SAINT LUCIA",
+      "sis1_orsz_hun": "SAINT LUCIA"
+    },
+    {
+      "kod": "VCT",
+      "allampolgarsag": "SAINT VINCENT ÁLLAMPOLGÁRA",
+      "orszag": "SAINT VINCENT",
+      "schengen": "VC",
+      "sis1_orsz": "SAINT VINCENT AND THE GRENADINES",
+      "sis1_orsz_hun": "SAINT VINCENT ÉS GRENADINE-SZIGETEK"
+    },
+    {
+      "kod": "SLB",
+      "allampolgarsag": "SALAMON-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "SALAMON-SZIGETEK",
+      "schengen": "SI",
+      "sis1_orsz": "SOLOMON ISLANDS",
+      "sis1_orsz_hun": "SALAMON-SZIGETEK"
+    },
+    {
+      "kod": "SLV",
+      "allampolgarsag": "SALVADOR ÁLLAMPOLGÁRA",
+      "orszag": "SALVADOR",
+      "schengen": "SV",
+      "sis1_orsz": "EL SALVADOR",
+      "sis1_orsz_hun": "SALVADOR"
+    },
+    {
+      "kod": "SMR",
+      "allampolgarsag": "SAN MARINO ÁLLAMPOLGÁRA",
+      "orszag": "SAN MARINO",
+      "schengen": "SM",
+      "sis1_orsz": "SAN MARINO",
+      "sis1_orsz_hun": "SAN MARINO"
+    },
+    {
+      "kod": "STP",
+      "allampolgarsag": "SAO TOMÉ ÉS PRÍNCIPE ÁLLAMPOLGÁRA",
+      "orszag": "SAO TOMÉ ÉS PRÍNCIPE",
+      "schengen": "1Q",
+      "sis1_orsz": "SAO TOME AND PRINCIPE",
+      "sis1_orsz_hun": "SAO TOMÉ ÉS PRÍNCIPE"
+    },
+    {
+      "kod": "SYC",
+      "allampolgarsag": "SEYCHELLE-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "SEYCHELLE-SZIGETEK",
+      "schengen": "SC",
+      "sis1_orsz": "SEYCHELLES",
+      "sis1_orsz_hun": "SEYCHELLE-SZIGETEK"
+    },
+    {
+      "kod": "SLE",
+      "allampolgarsag": "SIERRA LEONE ÁLLAMPOLGÁRA",
+      "orszag": "SIERRA LEONE",
+      "schengen": "SL",
+      "sis1_orsz": "SIERRA LEONE",
+      "sis1_orsz_hun": "SIERRA LEONE"
+    },
+    {
+      "kod": "ESP",
+      "allampolgarsag": "SPANYOLORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "SPANYOLORSZÁG",
+      "schengen": "ES",
+      "sis1_orsz": "SPAIN",
+      "sis1_orsz_hun": "SPANYOLORSZÁG"
+    },
+    {
+      "kod": "LKA",
+      "allampolgarsag": "SRÍ LANKA ÁLLAMPOLGÁRA",
+      "orszag": "SRÍ LANKA",
+      "schengen": "LK",
+      "sis1_orsz": "SRI LANKA",
+      "sis1_orsz_hun": "SRI LANKA (CEYLON)"
+    },
+    {
+      "kod": "SPM",
+      "allampolgarsag": "ST-PIERRE ÉS MIQUELON ÁLLAMPOLGÁRA",
+      "orszag": "ST-PIERRE ÉS MIQUELON"
+    },
+    {
+      "kod": "KNA",
+      "allampolgarsag": "ST.CHRISTOPHER ÉS NEVIS ÁLLAMPOLGÁRA",
+      "orszag": "ST.CHRISTOPHER ÉS NEVIS",
+      "schengen": "SK",
+      "sis1_orsz": "SAINT KITTS AND NEVIS",
+      "sis1_orsz_hun": "SAINT KITTS ÉS NEVIS"
+    },
+    {
+      "kod": "SUR",
+      "allampolgarsag": "SURINAME ÁLLAMPOLGÁRA",
+      "orszag": "SURINAME",
+      "schengen": "SR",
+      "sis1_orsz": "SURINAME",
+      "sis1_orsz_hun": "SURINAME"
+    },
+    {
+      "kod": "SJM",
+      "allampolgarsag": "SVALBARD ÁLLAMPOLGÁRA",
+      "orszag": "SVALBARD"
+    },
+    {
+      "kod": "CHE",
+      "allampolgarsag": "SVÁJC ÁLLAMPOLGÁRA",
+      "orszag": "SVÁJC",
+      "schengen": "CH",
+      "sis1_orsz": "SWITZERLAND",
+      "sis1_orsz_hun": "SVÁJC"
+    },
+    {
+      "kod": "SWE",
+      "allampolgarsag": "SVÉDORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "SVÉDORSZÁG",
+      "schengen": "SE",
+      "sis1_orsz": "SWEDEN",
+      "sis1_orsz_hun": "SVÉDORSZÁG"
+    },
+    {
+      "kod": "SAU",
+      "allampolgarsag": "SZAÚD-ARÁBIA ÁLLAMPOLGÁRA",
+      "orszag": "SZAÚD-ARÁBIA",
+      "schengen": "SA",
+      "sis1_orsz": "SAUDI ARABIA",
+      "sis1_orsz_hun": "SZAUD-ARÁBIA"
+    },
+    {
+      "kod": "SEN",
+      "allampolgarsag": "SZENEGÁL ÁLLAMPOLGÁRA",
+      "orszag": "SZENEGÁL",
+      "schengen": "SN",
+      "sis1_orsz": "SENEGAL",
+      "sis1_orsz_hun": "SZENEGÁL"
+    },
+    {
+      "kod": "SHN",
+      "allampolgarsag": "SZENT ILONA ÁLLAMPOLGÁRA",
+      "orszag": "SZENT ILONA"
+    },
+    {
+      "kod": "SRB",
+      "allampolgarsag": "SZERBIA ÁLLAMPOLGÁRA",
+      "orszag": "SZERBIA",
+      "schengen": "2F",
+      "sis1_orsz": "SERBIA",
+      "sis1_orsz_hun": "SZERBIA"
+    },
+    {
+      "kod": "SCG",
+      "allampolgarsag": "SZERBIA ÉS MONTENEGRÓ ÁLLAMPOLGÁRA",
+      "orszag": "SZERBIA ÉS MONTENEGRÓ 2006.06.12-IG",
+      "schengen": "2H",
+      "sis1_orsz": "SERBIA AND MONTENEGRO",
+      "sis1_orsz_hun": "SZERBIA-MONTENEGRÓ"
+    },
+    {
+      "kod": "SGP",
+      "allampolgarsag": "SZINGAPÚR ÁLLAMPOLGÁRA",
+      "orszag": "SZINGAPÚR",
+      "schengen": "SG",
+      "sis1_orsz": "SINGAPORE",
+      "sis1_orsz_hun": "SZINGAPÚR"
+    },
+    {
+      "kod": "SVK",
+      "allampolgarsag": "SZLOVÁK KÖZTÁRSASÁG ÁLLAMPOLGÁRA",
+      "orszag": "SZLOVÁK KÖZTÁRSASÁG",
+      "schengen": "1Z",
+      "sis1_orsz": "SLOVAKIA",
+      "sis1_orsz_hun": "SZLOVÁKIA"
+    },
+    {
+      "kod": "SVN",
+      "allampolgarsag": "SZLOVÉNIA ÁLLAMPOLGÁRA",
+      "orszag": "SZLOVÉNIA",
+      "schengen": "2G",
+      "sis1_orsz": "SLOVENIA",
+      "sis1_orsz_hun": "SZLOVÉNIA"
+    },
+    {
+      "kod": "SOM",
+      "allampolgarsag": "SZOMÁLIA ÁLLAMPOLGÁRA",
+      "orszag": "SZOMÁLIA",
+      "schengen": "SO",
+      "sis1_orsz": "SOMALIA",
+      "sis1_orsz_hun": "SZOMÁLIA"
+    },
+    {
+      "kod": "SDN",
+      "allampolgarsag": "SZUDÁN ÁLLAMPOLGÁRA",
+      "orszag": "SZUDÁN",
+      "schengen": "SD",
+      "sis1_orsz": "SUDAN",
+      "sis1_orsz_hun": "SZUDÁN"
+    },
+    {
+      "kod": "SWZ",
+      "allampolgarsag": "SZVÁZIFÖLD ÁLLAMPOLGÁRA",
+      "orszag": "SZVÁZIFÖLD",
+      "schengen": "SZ",
+      "sis1_orsz": "SWAZILAND",
+      "sis1_orsz_hun": "SZVÁZIFÖLD"
+    },
+    {
+      "kod": "SYR",
+      "allampolgarsag": "SZÍRIA ÁLLAMPOLGÁRA",
+      "orszag": "SZÍRIA",
+      "schengen": "SY",
+      "sis1_orsz": "SYRIAN ARAB REPUBLIC",
+      "sis1_orsz_hun": "SZÍRIAI ARAB KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "TJK",
+      "allampolgarsag": "TADZSIKISZTÁN ÁLLAMPOLGÁRA",
+      "orszag": "TADZSIKISZTÁN",
+      "schengen": "1R",
+      "sis1_orsz": "TAJIKISTAN",
+      "sis1_orsz_hun": "TADZSIKISZTÁN"
+    },
+    {
+      "kod": "TWN",
+      "allampolgarsag": "TAJVAN ÁLLAMPOLGÁRA",
+      "orszag": "TAJVAN",
+      "schengen": "TW",
+      "sis1_orsz": "TAIWAN",
+      "sis1_orsz_hun": "TAJVAN"
+    },
+    {
+      "kod": "TZA",
+      "allampolgarsag": "TANZÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "TANZÁNIA",
+      "schengen": "TZ",
+      "sis1_orsz": "TANZANIA, UNITED REPUBLIC OF",
+      "sis1_orsz_hun": "TANZÁNIA"
+    },
+    {
+      "kod": "THA",
+      "allampolgarsag": "THAIFÖLD ÁLLAMPOLGÁRA",
+      "orszag": "THAIFÖLD",
+      "schengen": "TH",
+      "sis1_orsz": "THAILAND",
+      "sis1_orsz_hun": "THAIFÖLD"
+    },
+    {
+      "kod": "TGO",
+      "allampolgarsag": "TOGÓ ÁLLAMPOLGÁRA",
+      "orszag": "TOGÓ",
+      "schengen": "TG",
+      "sis1_orsz": "TOGO",
+      "sis1_orsz_hun": "TOGO"
+    },
+    {
+      "kod": "TKL",
+      "allampolgarsag": "TOKELAU-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "TOKELAU-SZIGETEK"
+    },
+    {
+      "kod": "TON",
+      "allampolgarsag": "TONGA ÁLLAMPOLGÁRA",
+      "orszag": "TONGA",
+      "schengen": "TO",
+      "sis1_orsz": "TONGA",
+      "sis1_orsz_hun": "TONGA"
+    },
+    {
+      "kod": "TTO",
+      "allampolgarsag": "TRINIDAD ÉS TOBAGO ÁLLAMPOLGÁRA",
+      "orszag": "TRINIDAD ÉS TOBAGO",
+      "schengen": "TT",
+      "sis1_orsz": "TRINIDAD AND TOBAGO",
+      "sis1_orsz_hun": "TRINIDAD ÉS TOBAGO"
+    },
+    {
+      "kod": "TUN",
+      "allampolgarsag": "TUNÉZIA ÁLLAMPOLGÁRA",
+      "orszag": "TUNÉZIA",
+      "schengen": "TN",
+      "sis1_orsz": "TUNISIA",
+      "sis1_orsz_hun": "TUNÉZIA"
+    },
+    {
+      "kod": "TCA",
+      "allampolgarsag": "TURKS ÉS CAICOS-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "TURKS ÉS CAICOS-SZIGETEK"
+    },
+    {
+      "kod": "TUV",
+      "allampolgarsag": "TUVALU ÁLLAMPOLGÁRA",
+      "orszag": "TUVALU",
+      "schengen": "TV",
+      "sis1_orsz": "TUVALU",
+      "sis1_orsz_hun": "TUVALU"
+    },
+    {
+      "kod": "TUR",
+      "allampolgarsag": "TÖRÖKORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "TÖRÖKORSZÁG",
+      "schengen": "TR",
+      "sis1_orsz": "TURKEY",
+      "sis1_orsz_hun": "TÖRÖKORSZÁG"
+    },
+    {
+      "kod": "TKM",
+      "allampolgarsag": "TÜRKMÉNIA ÁLLAMPOLGÁRA",
+      "orszag": "TÜRKMÉNIA",
+      "schengen": "1T",
+      "sis1_orsz": "TURKMENISTAN",
+      "sis1_orsz_hun": "TÜRKMENISZTÁN"
+    },
+    {
+      "kod": "UGA",
+      "allampolgarsag": "UGANDA ÁLLAMPOLGÁRA",
+      "orszag": "UGANDA",
+      "schengen": "1M",
+      "sis1_orsz": "UGANDA",
+      "sis1_orsz_hun": "UGANDA"
+    },
+    {
+      "kod": "UKR",
+      "allampolgarsag": "UKRAJNA ÁLLAMPOLGÁRA",
+      "orszag": "UKRAJNA",
+      "schengen": "1U",
+      "sis1_orsz": "UKRAINE",
+      "sis1_orsz_hun": "UKRAJNA"
+    },
+    {
+      "kod": "URY",
+      "allampolgarsag": "URUGUAY ÁLLAMPOLGÁRA",
+      "orszag": "URUGUAY",
+      "schengen": "UY",
+      "sis1_orsz": "URUGUAY",
+      "sis1_orsz_hun": "URUGUAY"
+    },
+    {
+      "kod": "VUT",
+      "allampolgarsag": "VANUATU ÁLLAMPOLGÁRA",
+      "orszag": "VANUATU",
+      "schengen": "VU",
+      "sis1_orsz": "VANUATU",
+      "sis1_orsz_hun": "VANUATU"
+    },
+    {
+      "kod": "VAT",
+      "allampolgarsag": "VATIKÁN ÁLLAMPOLGÁRA",
+      "orszag": "VATIKÁN",
+      "schengen": "VA",
+      "sis1_orsz": "VATICAN CITY STATE (HOLY SEE)",
+      "sis1_orsz_hun": "VATIKÁN (SZENTSZÉK)"
+    },
+    {
+      "kod": "VEN",
+      "allampolgarsag": "VENEZUELA ÁLLAMPOLGÁRA",
+      "orszag": "VENEZUELA",
+      "schengen": "VE",
+      "sis1_orsz": "VENEZUELA",
+      "sis1_orsz_hun": "VENEZUELA"
+    },
+    {
+      "kod": "VNM",
+      "allampolgarsag": "VIETNÁM ÁLLAMPOLGÁRA",
+      "orszag": "VIETNÁM",
+      "schengen": "VN",
+      "sis1_orsz": "VIETNAM",
+      "sis1_orsz_hun": "VIETNAM"
+    },
+    {
+      "kod": "WLF",
+      "allampolgarsag": "WALLIS ÉS FUTUNA ÁLLAMPOLGÁRA",
+      "orszag": "WALLIS ÉS FUTUNA"
+    },
+    {
+      "kod": "ZAR",
+      "allampolgarsag": "ZAIRE (2001.11.22-IG, UTÁNA COD) ÁLLAMPOLGÁRA",
+      "orszag": "ZAIRE (2001.11.22-IG, UTÁNA COD)",
+      "schengen": "ZR",
+      "sis1_orsz": "ZAIRE",
+      "sis1_orsz_hun": "ZAIRE"
+    },
+    {
+      "kod": "ZMB",
+      "allampolgarsag": "ZAMBIA ÁLLAMPOLGÁRA",
+      "orszag": "ZAMBIA",
+      "schengen": "ZM",
+      "sis1_orsz": "ZAMBIA",
+      "sis1_orsz_hun": "ZAMBIA"
+    },
+    {
+      "kod": "ZWE",
+      "allampolgarsag": "ZIMBABWE ÁLLAMPOLGÁRA",
+      "orszag": "ZIMBABWE",
+      "schengen": "ZW",
+      "sis1_orsz": "ZIMBABWE",
+      "sis1_orsz_hun": "ZIMBABWE"
+    },
+    {
+      "kod": "CPV",
+      "allampolgarsag": "ZÖLD-FOKI KÖZTÁRSASÁG ÁLLAMPOLGÁRA",
+      "orszag": "ZÖLD-FOKI KÖZTÁRSASÁG",
+      "schengen": "CV",
+      "sis1_orsz": "CAPE VERDE",
+      "sis1_orsz_hun": "ZÖLD-FOKI KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "MNP",
+      "allampolgarsag": "ÉSZAK-MARIANA-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "ÉSZAK-MARIANA-SZIGETEK",
+      "schengen": "2M",
+      "sis1_orsz": "NORTHERN MARIANA ISLANDS",
+      "sis1_orsz_hun": "ÉSZAKI-MARIANA-SZIGETEK"
+    },
+    {
+      "kod": "EST",
+      "allampolgarsag": "ÉSZTORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "ÉSZTORSZÁG",
+      "schengen": "EL",
+      "sis1_orsz": "ESTONIA",
+      "sis1_orsz_hun": "ÉSZTORSZÁG"
+    },
+    {
+      "kod": "IRL",
+      "allampolgarsag": "ÍRORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "ÍRORSZÁG",
+      "schengen": "IE",
+      "sis1_orsz": "IRELAND",
+      "sis1_orsz_hun": "ÍRORSZÁG"
+    },
+    {
+      "kod": "ARM",
+      "allampolgarsag": "ÖRMÉNYORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "ÖRMÉNYORSZÁG",
+      "schengen": "1A",
+      "sis1_orsz": "ARMENIA",
+      "sis1_orsz_hun": "ÖRMÉNYORSZÁG"
+    },
+    {
+      "kod": "NCL",
+      "allampolgarsag": "ÚJ-KALEDÓNIA ÁLLAMPOLGÁRA",
+      "orszag": "ÚJ-KALEDÓNIA"
+    },
+    {
+      "kod": "NZL",
+      "allampolgarsag": "ÚJ-ZÉLAND ÁLLAMPOLGÁRA",
+      "orszag": "ÚJ-ZÉLAND",
+      "schengen": "NZ",
+      "sis1_orsz": "NEW ZEALAND",
+      "sis1_orsz_hun": "ÚJ-ZÉLAND"
+    },
+    {
+      "kod": "UZB",
+      "allampolgarsag": "ÜZBEGISZTÁN ÁLLAMPOLGÁRA",
+      "orszag": "ÜZBEGISZTÁN",
+      "schengen": "1N",
+      "sis1_orsz": "UZBEKISTAN",
+      "sis1_orsz_hun": "ÜZBEGISZTÁN"
+    },
+    {
+      "kod": "CIV",
+      "allampolgarsag": "ELEFÁNTCSONTPART ÁLLAMPOLGÁRA",
+      "orszag": "ELEFÁNTCSONTPART",
+      "schengen": "CI",
+      "sis1_orsz": "COTE D'IVOIRE",
+      "sis1_orsz_hun": "ELEFÁNTCSONTPART"
+    },
+    {
+      "kod": "AFG",
+      "allampolgarsag": "AFGANISZTÁN ÁLLAMPOLGÁRA",
+      "orszag": "AFGANISZTÁN",
+      "schengen": "AF",
+      "sis1_orsz": "AFGHANISTAN",
+      "sis1_orsz_hun": "AFGANISZTÁN"
+    },
+    {
+      "kod": "ALB",
+      "allampolgarsag": "ALBÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "ALBÁNIA",
+      "schengen": "AL",
+      "sis1_orsz": "ALBANIA",
+      "sis1_orsz_hun": "ALBÁNIA"
+    },
+    {
+      "kod": "DZA",
+      "allampolgarsag": "ALGÉRIA ÁLLAMPOLGÁRA",
+      "orszag": "ALGÉRIA",
+      "schengen": "DZ",
+      "sis1_orsz": "ALGERIA",
+      "sis1_orsz_hun": "ALGÉRIA"
+    },
+    {
+      "kod": "UMI",
+      "allampolgarsag": "AMERIKAI CSENDES-ÓCEÁNI-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "AMERIKAI CSENDES-ÓCEÁNI-SZIGETEK",
+      "schengen": "2B",
+      "sis1_orsz": "TRUST TERRITORY OF THE PACIFIC ISLANDS",
+      "sis1_orsz_hun": "CSENDES-ÓCEÁNI-SZIGETEK"
+    },
+    {
+      "kod": "USA",
+      "allampolgarsag": "AMERIKAI EGYESÜLT ÁLLAMOK ÁLLAMPOLGÁRA",
+      "orszag": "AMERIKAI EGYESÜLT ÁLLAMOK",
+      "schengen": "US",
+      "sis1_orsz": "UNITED STATES",
+      "sis1_orsz_hun": "AMERIKAI EGYESÜLT ÁLLAMOK"
+    },
+    {
+      "kod": "ASM",
+      "allampolgarsag": "AMERIKAI SZAMOA ÁLLAMPOLGÁRA",
+      "orszag": "AMERIKAI SZAMOA"
+    },
+    {
+      "kod": "VIR",
+      "allampolgarsag": "AMERIKAI VIRGIN-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "AMERIKAI VIRGIN-SZIGETEK"
+    },
+    {
+      "kod": "AND",
+      "allampolgarsag": "ANDORRA ÁLLAMPOLGÁRA",
+      "orszag": "ANDORRA",
+      "schengen": "AD",
+      "sis1_orsz": "ANDORRA",
+      "sis1_orsz_hun": "ANDORRA"
+    },
+    {
+      "kod": "AGO",
+      "allampolgarsag": "ANGOLA ÁLLAMPOLGÁRA",
+      "orszag": "ANGOLA",
+      "schengen": "AO",
+      "sis1_orsz": "ANGOLA",
+      "sis1_orsz_hun": "ANGOLA"
+    },
+    {
+      "kod": "AIA",
+      "allampolgarsag": "ANGUILLA ÁLLAMPOLGÁRA",
+      "orszag": "ANGUILLA"
+    },
+    {
+      "kod": "ATA",
+      "allampolgarsag": "ANTARKTISZ ÁLLAMPOLGÁRA",
+      "orszag": "ANTARKTISZ"
+    },
+    {
+      "kod": "ATG",
+      "allampolgarsag": "ANTIGUA ÉS BARBUDA ÁLLAMPOLGÁRA",
+      "orszag": "ANTIGUA ÉS BARBUDA",
+      "schengen": "AG",
+      "sis1_orsz": "ANTIGUA AND BARBUDA",
+      "sis1_orsz_hun": "ANTIGUA ÉS BARBUDA"
+    },
+    {
+      "kod": "ARE",
+      "allampolgarsag": "ARAB EMÍRSÉGEK ÁLLAMPOLGÁRA",
+      "orszag": "ARAB EMÍRSÉGEK",
+      "schengen": "AE",
+      "sis1_orsz": "UNITED ARAB EMIRATES",
+      "sis1_orsz_hun": "EGYESÜLT ARAB EMÍRSÉGEK"
+    },
+    {
+      "kod": "ARG",
+      "allampolgarsag": "ARGENTÍNA ÁLLAMPOLGÁRA",
+      "orszag": "ARGENTÍNA",
+      "schengen": "RA",
+      "sis1_orsz": "ARGENTINA",
+      "sis1_orsz_hun": "ARGENTÍNA"
+    },
+    {
+      "kod": "ABW",
+      "allampolgarsag": "ARUBA ÁLLAMPOLGÁRA",
+      "orszag": "ARUBA"
+    },
+    {
+      "kod": "AUT",
+      "allampolgarsag": "AUSZTRIA ÁLLAMPOLGÁRA",
+      "orszag": "AUSZTRIA",
+      "schengen": "AT",
+      "sis1_orsz": "AUSTRIA",
+      "sis1_orsz_hun": "AUSZTRIA"
+    },
+    {
+      "kod": "AUS",
+      "allampolgarsag": "AUSZTRÁLIA ÁLLAMPOLGÁRA",
+      "orszag": "AUSZTRÁLIA",
+      "schengen": "AU",
+      "sis1_orsz": "AUSTRALIA",
+      "sis1_orsz_hun": "AUSZTRÁLIA"
+    },
+    {
+      "kod": "AZE",
+      "allampolgarsag": "AZERBAJDZSÁN ÁLLAMPOLGÁRA",
+      "orszag": "AZERBAJDZSÁN",
+      "schengen": "1C",
+      "sis1_orsz": "AZERBAIJAN",
+      "sis1_orsz_hun": "AZERBAJDZSÁN"
+    },
+    {
+      "kod": "BHS",
+      "allampolgarsag": "BAHAMA-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "BAHAMA-SZIGETEK",
+      "schengen": "BS",
+      "sis1_orsz": "BAHAMAS",
+      "sis1_orsz_hun": "BAHAMA-SZIGETEK"
+    },
+    {
+      "kod": "BHR",
+      "allampolgarsag": "BAHREIN ÁLLAMPOLGÁRA",
+      "orszag": "BAHREIN",
+      "schengen": "BH",
+      "sis1_orsz": "BAHRAIN",
+      "sis1_orsz_hun": "BAHREIN"
+    },
+    {
+      "kod": "BGD",
+      "allampolgarsag": "BANGLADES ÁLLAMPOLGÁRA",
+      "orszag": "BANGLADES",
+      "schengen": "BD",
+      "sis1_orsz": "BANGLADESH",
+      "sis1_orsz_hun": "BANGLADES"
+    },
+    {
+      "kod": "BRB",
+      "allampolgarsag": "BARBADOS ÁLLAMPOLGÁRA",
+      "orszag": "BARBADOS",
+      "schengen": "BB",
+      "sis1_orsz": "BARBADOS",
+      "sis1_orsz_hun": "BARBADOSZ"
+    },
+    {
+      "kod": "BEL",
+      "allampolgarsag": "BELGIUM ÁLLAMPOLGÁRA",
+      "orszag": "BELGIUM",
+      "schengen": "BE",
+      "sis1_orsz": "BELGIUM",
+      "sis1_orsz_hun": "BELGIUM"
+    },
+    {
+      "kod": "BLZ",
+      "allampolgarsag": "BELIZE ÁLLAMPOLGÁRA",
+      "orszag": "BELIZE",
+      "schengen": "BZ",
+      "sis1_orsz": "BELIZE",
+      "sis1_orsz_hun": "BELIZE"
+    },
+    {
+      "kod": "BLR",
+      "allampolgarsag": "BELORUSSZIA ÁLLAMPOLGÁRA",
+      "orszag": "BELORUSSZIA",
+      "schengen": "1Y",
+      "sis1_orsz": "BELARUS OR BELARUSIAN",
+      "sis1_orsz_hun": "BELARUSZ KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "BEN",
+      "allampolgarsag": "BENIN ÁLLAMPOLGÁRA",
+      "orszag": "BENIN",
+      "schengen": "BJ",
+      "sis1_orsz": "BENIM",
+      "sis1_orsz_hun": "BENIN"
+    },
+    {
+      "kod": "BMU",
+      "allampolgarsag": "BERMUDA ÁLLAMPOLGÁRA",
+      "orszag": "BERMUDA"
+    },
+    {
+      "kod": "BTN",
+      "allampolgarsag": "BHUTÁN ÁLLAMPOLGÁRA",
+      "orszag": "BHUTÁN",
+      "schengen": "BT",
+      "sis1_orsz": "BHUTAN",
+      "sis1_orsz_hun": "BHUTÁN"
+    },
+    {
+      "kod": "GNB",
+      "allampolgarsag": "BISSAU-GUINEA ÁLLAMPOLGÁRA",
+      "orszag": "BISSAU-GUINEA",
+      "schengen": "GW",
+      "sis1_orsz": "GUINEA-BISSAU",
+      "sis1_orsz_hun": "BISSAU-GUINEA"
+    },
+    {
+      "kod": "BOL",
+      "allampolgarsag": "BOLÍVIA ÁLLAMPOLGÁRA",
+      "orszag": "BOLÍVIA",
+      "schengen": "BO",
+      "sis1_orsz": "BOLIVIA",
+      "sis1_orsz_hun": "BOLÍVIA"
+    },
+    {
+      "kod": "BIH",
+      "allampolgarsag": "BOSZNIA-HERCEGOVINA ÁLLAMPOLGÁRA",
+      "orszag": "BOSZNIA-HERCEGOVINA",
+      "schengen": "2C",
+      "sis1_orsz": "BOSNIA AND HERZEGOWINA",
+      "sis1_orsz_hun": "BOSZNIA-HERCEGOVINA"
+    },
+    {
+      "kod": "BWA",
+      "allampolgarsag": "BOTSWANA ÁLLAMPOLGÁRA",
+      "orszag": "BOTSWANA",
+      "schengen": "BW",
+      "sis1_orsz": "BOTSWANA",
+      "sis1_orsz_hun": "BOTSWANA"
+    },
+    {
+      "kod": "BVT",
+      "allampolgarsag": "BOUVET-SZIGET ÁLLAMPOLGÁRA",
+      "orszag": "BOUVET-SZIGET"
+    },
+    {
+      "kod": "BRA",
+      "allampolgarsag": "BRAZÍLIA ÁLLAMPOLGÁRA",
+      "orszag": "BRAZÍLIA",
+      "schengen": "BR",
+      "sis1_orsz": "BRAZIL",
+      "sis1_orsz_hun": "BRAZÍLIA"
+    },
+    {
+      "kod": "IOT",
+      "allampolgarsag": "BRIT INDIAI-ÓCEÁNI TERÜLET ÁLLAMPOLGÁRA",
+      "orszag": "BRIT INDIAI-ÓCEÁNI TERÜLET"
+    },
+    {
+      "kod": "VGB",
+      "allampolgarsag": "BRIT VIRGIN-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "BRIT VIRGIN-SZIGETEK"
+    },
+    {
+      "kod": "BRN",
+      "allampolgarsag": "BRUNEI ÁLLAMPOLGÁRA",
+      "orszag": "BRUNEI",
+      "schengen": "BN",
+      "sis1_orsz": "BRUNEI DARUSSALAM",
+      "sis1_orsz_hun": "BRUNEI (BRUNEI DARUSSZALAM ÁLLAM)"
+    },
+    {
+      "kod": "BGR",
+      "allampolgarsag": "BULGÁRIA ÁLLAMPOLGÁRA",
+      "orszag": "BULGÁRIA",
+      "schengen": "BG",
+      "sis1_orsz": "BULGARY",
+      "sis1_orsz_hun": "BULGÁRIA"
+    },
+    {
+      "kod": "BFA",
+      "allampolgarsag": "BURKINA FASO ÁLLAMPOLGÁRA",
+      "orszag": "BURKINA FASO",
+      "schengen": "BF",
+      "sis1_orsz": "BURKINA FASO",
+      "sis1_orsz_hun": "BURKINA FASO"
+    },
+    {
+      "kod": "BDI",
+      "allampolgarsag": "BURUNDI ÁLLAMPOLGÁRA",
+      "orszag": "BURUNDI",
+      "schengen": "BI",
+      "sis1_orsz": "BURUNDI",
+      "sis1_orsz_hun": "BURUNDI"
+    },
+    {
+      "kod": "CHL",
+      "allampolgarsag": "CHILE ÁLLAMPOLGÁRA",
+      "orszag": "CHILE",
+      "schengen": "CL",
+      "sis1_orsz": "CHILE",
+      "sis1_orsz_hun": "CHILE"
+    },
+    {
+      "kod": "CYP",
+      "allampolgarsag": "CIPRUS ÁLLAMPOLGÁRA",
+      "orszag": "CIPRUS",
+      "schengen": "CY",
+      "sis1_orsz": "CYPRUS",
+      "sis1_orsz_hun": "CIPRUS"
+    },
+    {
+      "kod": "COM",
+      "allampolgarsag": "COMORE-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "COMORE-SZIGETEK",
+      "schengen": "KM",
+      "sis1_orsz": "COMOROS",
+      "sis1_orsz_hun": "COMORE-SZIGETEK"
+    },
+    {
+      "kod": "COK",
+      "allampolgarsag": "COOK-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "COOK-SZIGETEK"
+    },
+    {
+      "kod": "CRI",
+      "allampolgarsag": "COSTA RICA ÁLLAMPOLGÁRA",
+      "orszag": "COSTA RICA",
+      "schengen": "CR",
+      "sis1_orsz": "COSTA RICA",
+      "sis1_orsz_hun": "COSTA RICA"
+    },
+    {
+      "kod": "CZE",
+      "allampolgarsag": "CSEH KÖZTÁRSASÁG ÁLLAMPOLGÁRA",
+      "orszag": "CSEH KÖZTÁRSASÁG",
+      "schengen": "2A",
+      "sis1_orsz": "CZECH REPUBLIC",
+      "sis1_orsz_hun": "CSEH KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "TCD",
+      "allampolgarsag": "CSÁD ÁLLAMPOLGÁRA",
+      "orszag": "CSÁD",
+      "schengen": "TD",
+      "sis1_orsz": "CHAD",
+      "sis1_orsz_hun": "CSÁD"
+    },
+    {
+      "kod": "DOM",
+      "allampolgarsag": "DOMINIKAI KÖZTÁRSASÁG ÁLLAMPOLGÁRA",
+      "orszag": "DOMINIKAI KÖZTÁRSASÁG",
+      "schengen": "DM",
+      "sis1_orsz": "DOMINICAN REPUBLIC",
+      "sis1_orsz_hun": "DOMINIKAI KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "DMA",
+      "allampolgarsag": "DOMINIKAI KÖZÖSSÉG ÁLLAMPOLGÁRA",
+      "orszag": "DOMINIKAI KÖZÖSSÉG",
+      "schengen": "1G",
+      "sis1_orsz": "DOMINICA",
+      "sis1_orsz_hun": "DOMINIKA"
+    },
+    {
+      "kod": "DJI",
+      "allampolgarsag": "DZSIBUTI ÁLLAMPOLGÁRA",
+      "orszag": "DZSIBUTI",
+      "schengen": "DJ",
+      "sis1_orsz": "DJIBOUTI",
+      "sis1_orsz_hun": "DZSIBUTI"
+    },
+    {
+      "kod": "DNK",
+      "allampolgarsag": "DÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "DÁNIA",
+      "schengen": "DK",
+      "sis1_orsz": "DENMARK",
+      "sis1_orsz_hun": "DÁNIA"
+    },
+    {
+      "kod": "ZAF",
+      "allampolgarsag": "DÉL-AFRIKA ÁLLAMPOLGÁRA",
+      "orszag": "DÉL-AFRIKA",
+      "schengen": "ZA",
+      "sis1_orsz": "SOUTH AFRICA",
+      "sis1_orsz_hun": "DÉL-AFRIKAI KÖZTÁRSASÁG"
+    },
+    {
+      "kod": "SSD",
+      "allampolgarsag": "DÉL-SZUDÁN ÁLLAMPOLGÁRA",
+      "orszag": "DÉL-SZUDÁN",
+      "schengen": "SS",
+      "sis1_orsz": "DÉL-SZUDÁN",
+      "sis1_orsz_hun": "DÉL-SZUDÁN"
+    },
+    {
+      "kod": "SGS",
+      "allampolgarsag": "DÉLI-GEORGIA ÉS DÉLI-SANDWICH-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "DÉLI-GEORGIA ÉS DÉLI-SANDWICH-SZIGETEK"
+    },
+    {
+      "kod": "ECU",
+      "allampolgarsag": "ECUADOR ÁLLAMPOLGÁRA",
+      "orszag": "ECUADOR",
+      "schengen": "EC",
+      "sis1_orsz": "ECUADOR",
+      "sis1_orsz_hun": "ECUADOR"
+    },
+    {
+      "kod": "GNQ",
+      "allampolgarsag": "EGYENLÍTŐI-GUINEA ÁLLAMPOLGÁRA",
+      "orszag": "EGYENLÍTŐI-GUINEA",
+      "schengen": "GE",
+      "sis1_orsz": "EQUATORIAL GUINEA",
+      "sis1_orsz_hun": "EGYENLÍTŐI GUINEA"
+    },
+    {
+      "kod": "EGY",
+      "allampolgarsag": "EGYIPTOM ÁLLAMPOLGÁRA",
+      "orszag": "EGYIPTOM",
+      "schengen": "EG",
+      "sis1_orsz": "EGYPT",
+      "sis1_orsz_hun": "EGYIPTOM"
+    },
+    {
+      "kod": "ERI",
+      "allampolgarsag": "ERITREA ÁLLAMPOLGÁRA",
+      "orszag": "ERITREA",
+      "schengen": "2E",
+      "sis1_orsz": "ERITREA",
+      "sis1_orsz_hun": "ERITREA"
+    },
+    {
+      "kod": "ETH",
+      "allampolgarsag": "ETIÓPIA ÁLLAMPOLGÁRA",
+      "orszag": "ETIÓPIA",
+      "schengen": "ET",
+      "sis1_orsz": "ETHIOPIA",
+      "sis1_orsz_hun": "ETIÓPIA"
+    },
+    {
+      "kod": "FLK",
+      "allampolgarsag": "FALKLAND-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "FALKLAND-SZIGETEK"
+    },
+    {
+      "kod": "FRO",
+      "allampolgarsag": "FERÖER-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "FERÖER-SZIGETEK"
+    },
+    {
+      "kod": "FJI",
+      "allampolgarsag": "FIDZSI-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "FIDZSI-SZIGETEK",
+      "schengen": "FJ",
+      "sis1_orsz": "FIJI",
+      "sis1_orsz_hun": "FIDZSI-SZIGETEK"
+    },
+    {
+      "kod": "FIN",
+      "allampolgarsag": "FINNORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "FINNORSZÁG",
+      "schengen": "FI",
+      "sis1_orsz": "FINLAND",
+      "sis1_orsz_hun": "FINNORSZÁG"
+    },
+    {
+      "kod": "ATF",
+      "allampolgarsag": "FRANCIA DÉLI TERÜLETEK ÁLLAMPOLGÁRA",
+      "orszag": "FRANCIA DÉLI TERÜLETEK"
+    },
+    {
+      "kod": "GUF",
+      "allampolgarsag": "FRANCIA GUYANA ÁLLAMPOLGÁRA",
+      "orszag": "FRANCIA GUYANA"
+    },
+    {
+      "kod": "PYF",
+      "allampolgarsag": "FRANCIA POLINÉZIA ÁLLAMPOLGÁRA",
+      "orszag": "FRANCIA POLINÉZIA"
+    },
+    {
+      "kod": "FRA",
+      "allampolgarsag": "FRANCIAORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "FRANCIAORSZÁG",
+      "schengen": "FR",
+      "sis1_orsz": "FRANCE",
+      "sis1_orsz_hun": "FRANCIAORSZÁG"
+    },
+    {
+      "kod": "PHL",
+      "allampolgarsag": "FÜLÖP-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "FÜLÖP-SZIGETEK",
+      "schengen": "PH",
+      "sis1_orsz": "PHILIPPINES",
+      "sis1_orsz_hun": "FÜLÖP-SZIGETEK"
+    },
+    {
+      "kod": "GAB",
+      "allampolgarsag": "GABON ÁLLAMPOLGÁRA",
+      "orszag": "GABON",
+      "schengen": "GA",
+      "sis1_orsz": "GABON",
+      "sis1_orsz_hun": "GABON"
+    },
+    {
+      "kod": "GMB",
+      "allampolgarsag": "GAMBIA ÁLLAMPOLGÁRA",
+      "orszag": "GAMBIA",
+      "schengen": "GM",
+      "sis1_orsz": "GAMBIA",
+      "sis1_orsz_hun": "GAMBIA"
+    },
+    {
+      "kod": "GHA",
+      "allampolgarsag": "GHANA ÁLLAMPOLGÁRA",
+      "orszag": "GHANA",
+      "schengen": "GH",
+      "sis1_orsz": "GHANA",
+      "sis1_orsz_hun": "GHÁNA"
+    },
+    {
+      "kod": "GIB",
+      "allampolgarsag": "GIBRALTÁR ÁLLAMPOLGÁRA",
+      "orszag": "GIBRALTÁR"
+    },
+    {
+      "kod": "GRD",
+      "allampolgarsag": "GRENADA ÁLLAMPOLGÁRA",
+      "orszag": "GRENADA",
+      "schengen": "GD",
+      "sis1_orsz": "GRENADA",
+      "sis1_orsz_hun": "GRENADA"
+    },
+    {
+      "kod": "GRL",
+      "allampolgarsag": "GRÖNLAND ÁLLAMPOLGÁRA",
+      "orszag": "GRÖNLAND"
+    },
+    {
+      "kod": "GEO",
+      "allampolgarsag": "GRÚZIA ÁLLAMPOLGÁRA",
+      "orszag": "GRÚZIA",
+      "schengen": "1H",
+      "sis1_orsz": "GEORGIA",
+      "sis1_orsz_hun": "GRÚZIA"
+    },
+    {
+      "kod": "GLP",
+      "allampolgarsag": "GUADELOUPE ÁLLAMPOLGÁRA",
+      "orszag": "GUADELOUPE"
+    },
+    {
+      "kod": "GUM",
+      "allampolgarsag": "GUAM ÁLLAMPOLGÁRA",
+      "orszag": "GUAM"
+    },
+    {
+      "kod": "GTM",
+      "allampolgarsag": "GUATEMALA ÁLLAMPOLGÁRA",
+      "orszag": "GUATEMALA",
+      "schengen": "GT",
+      "sis1_orsz": "GUATEMALA",
+      "sis1_orsz_hun": "GUATEMALA"
+    },
+    {
+      "kod": "GIN",
+      "allampolgarsag": "GUINEA ÁLLAMPOLGÁRA",
+      "orszag": "GUINEA",
+      "schengen": "GN",
+      "sis1_orsz": "GUINEA",
+      "sis1_orsz_hun": "GUINEA"
+    },
+    {
+      "kod": "GUY",
+      "allampolgarsag": "GUYANA ÁLLAMPOLGÁRA",
+      "orszag": "GUYANA",
+      "schengen": "GY",
+      "sis1_orsz": "GUYANA",
+      "sis1_orsz_hun": "GUYANA"
+    },
+    {
+      "kod": "GRC",
+      "allampolgarsag": "GÖRÖGORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "GÖRÖGORSZÁG",
+      "schengen": "GR",
+      "sis1_orsz": "GREECE",
+      "sis1_orsz_hun": "GÖRÖGORSZÁG"
+    },
+    {
+      "kod": "HTI",
+      "allampolgarsag": "HAITI ÁLLAMPOLGÁRA",
+      "orszag": "HAITI",
+      "schengen": "HT",
+      "sis1_orsz": "HAITI",
+      "sis1_orsz_hun": "HAITI"
+    },
+    {
+      "kod": "HMD",
+      "allampolgarsag": "HEART-SZIGET ÉS MCDONALD-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "HEART-SZIGET ÉS MCDONALD-SZIGETEK"
+    },
+    {
+      "kod": "ANT",
+      "allampolgarsag": "HOLLAND ANTILLÁK ÁLLAMPOLGÁRA",
+      "orszag": "HOLLAND ANTILLÁK"
+    },
+    {
+      "kod": "NLD",
+      "allampolgarsag": "HOLLANDIA ÁLLAMPOLGÁRA",
+      "orszag": "HOLLANDIA",
+      "schengen": "NL",
+      "sis1_orsz": "NETHERLANDS",
+      "sis1_orsz_hun": "HOLLANDIA"
+    },
+    {
+      "kod": "HND",
+      "allampolgarsag": "HONDURAS ÁLLAMPOLGÁRA",
+      "orszag": "HONDURAS",
+      "schengen": "HN",
+      "sis1_orsz": "HONDURAS",
+      "sis1_orsz_hun": "HONDURAS"
+    },
+    {
+      "kod": "HKG",
+      "allampolgarsag": "HONGKONG ÁLLAMPOLGÁRA",
+      "orszag": "HONGKONG",
+      "schengen": "HK",
+      "sis1_orsz": "HONG KONG (GB)",
+      "sis1_orsz_hun": "HONGKONG (NAGY-BR.)"
+    },
+    {
+      "kod": "ZZZ",
+      "allampolgarsag": "HONTALAN",
+      "orszag": "HONTALAN"
+    },
+    {
+      "kod": "000",
+      "allampolgarsag": "HONTALAN (2001.11.22-IG, UTÁNA ZZZ)",
+      "orszag": "HONTALAN (2001.11.22-IG, UTÁNA ZZZ)"
+    },
+    {
+      "kod": "HRV",
+      "allampolgarsag": "HORVÁTORSZÁG ÁLLAMPOLGÁRA",
+      "orszag": "HORVÁTORSZÁG",
+      "schengen": "2D",
+      "sis1_orsz": "CROATIA",
+      "sis1_orsz_hun": "HORVÁTORSZÁG"
+    },
+    {
+      "kod": "IND",
+      "allampolgarsag": "INDIA ÁLLAMPOLGÁRA",
+      "orszag": "INDIA",
+      "schengen": "IN",
+      "sis1_orsz": "INDIA",
+      "sis1_orsz_hun": "INDIA"
+    },
+    {
+      "kod": "IDN",
+      "allampolgarsag": "INDONÉZIA ÁLLAMPOLGÁRA",
+      "orszag": "INDONÉZIA",
+      "schengen": "ID",
+      "sis1_orsz": "INDONESIA",
+      "sis1_orsz_hun": "INDONÉZIA"
+    },
+    {
+      "kod": "IRQ",
+      "allampolgarsag": "IRAK ÁLLAMPOLGÁRA",
+      "orszag": "IRAK",
+      "schengen": "IQ",
+      "sis1_orsz": "IRAQ",
+      "sis1_orsz_hun": "IRAK"
+    },
+    {
+      "kod": "IRN",
+      "allampolgarsag": "IRÁN ÁLLAMPOLGÁRA",
+      "orszag": "IRÁN",
+      "schengen": "IR",
+      "sis1_orsz": "IRAN (ISLAMIC REPUBLIC OF)",
+      "sis1_orsz_hun": "IRÁN (IRÁNI ISZLÁM KÖZTÁRSASÁG)"
+    },
+    {
+      "kod": "XXX",
+      "allampolgarsag": "ISMERETLEN",
+      "orszag": "ISMERETLEN"
+    },
+    {
+      "kod": "ISL",
+      "allampolgarsag": "IZLAND ÁLLAMPOLGÁRA",
+      "orszag": "IZLAND",
+      "schengen": "IS",
+      "sis1_orsz": "ICELAND",
+      "sis1_orsz_hun": "IZLAND"
+    },
+    {
+      "kod": "ISR",
+      "allampolgarsag": "IZRAEL ÁLLAMPOLGÁRA",
+      "orszag": "IZRAEL",
+      "schengen": "IL",
+      "sis1_orsz": "ISRAEL",
+      "sis1_orsz_hun": "IZRAEL"
+    },
+    {
+      "kod": "JAM",
+      "allampolgarsag": "JAMAICA ÁLLAMPOLGÁRA",
+      "orszag": "JAMAICA",
+      "schengen": "JM",
+      "sis1_orsz": "JAMAICA",
+      "sis1_orsz_hun": "JAMAICA"
+    },
+    {
+      "kod": "JPN",
+      "allampolgarsag": "JAPÁN ÁLLAMPOLGÁRA",
+      "orszag": "JAPÁN",
+      "schengen": "JP",
+      "sis1_orsz": "JAPAN",
+      "sis1_orsz_hun": "JAPÁN"
+    },
+    {
+      "kod": "YEM",
+      "allampolgarsag": "JEMEN ÁLLAMPOLGÁRA",
+      "orszag": "JEMEN",
+      "schengen": "YE",
+      "sis1_orsz": "YEMEN",
+      "sis1_orsz_hun": "JEMEN"
+    },
+    {
+      "kod": "JOR",
+      "allampolgarsag": "JORDÁNIA ÁLLAMPOLGÁRA",
+      "orszag": "JORDÁNIA",
+      "schengen": "JO",
+      "sis1_orsz": "JORDAN",
+      "sis1_orsz_hun": "JORDÁNIA"
+    },
+    {
+      "kod": "YUG",
+      "allampolgarsag": "JUGOSZLÁVIA ÁLLAMPOLGÁRA",
+      "orszag": "JUGOSZLÁVIA",
+      "schengen": "YU",
+      "sis1_orsz": "YUGOSLAVIA",
+      "sis1_orsz_hun": "JUGOSZLÁVIA"
+    },
+    {
+      "kod": "CYM",
+      "allampolgarsag": "KAJMÁN-SZIGETEK ÁLLAMPOLGÁRA",
+      "orszag": "KAJMÁN-SZIGETEK"
+    },
+    {
+      "kod": "KHM",
+      "allampolgarsag": "KAMBODZSA ÁLLAMPOLGÁRA",
+      "orszag": "KAMBODZSA",
+      "schengen": "KA",
+      "sis1_orsz": "CAMBODJA",
+      "sis1_orsz_hun": "KAMBODZSA"
+    },
+    {
+      "kod": "CMR",
+      "allampolgarsag": "KAMERUN ÁLLAMPOLGÁRA",
+      "orszag": "KAMERUN",
+      "schengen": "CM",
+      "sis1_orsz": "CAMEROON",
+      "sis1_orsz_hun": "KAMERUN"
+    }
+  ]
+}
