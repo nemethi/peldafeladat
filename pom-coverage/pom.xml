@@ -44,6 +44,17 @@
                             <outputDirectory>${project.build.directory}/jacoco-aggregate-ut</outputDirectory>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>report-aggregate-it</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report-aggregate</goal>
+                        </goals>
+                        <configuration>
+                            <dataFileIncludes>*/${jacoco.it.exec.file}</dataFileIncludes>
+                            <outputDirectory>${project.build.directory}/jacoco-aggregate-it</outputDirectory>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>

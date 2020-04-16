@@ -18,8 +18,8 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import validation.Validator;
 
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.time.Clock;
 import java.util.Collection;
 import java.util.Date;
@@ -78,18 +78,18 @@ public class Application extends SpringApplication {
                                                  ObjectMapper objectMapper,
                                                  ResourceLoader resourceLoader) throws IOException {
         Resource resource = resourceLoader.getResource(path);
-        JsonNode rows = getRowsFromJson(resource.getFile(), objectMapper);
+        JsonNode rows = getRowsFromJson(resource.getInputStream(), objectMapper);
         Collection<OkmanyTipus> okmanyTipusok = new HashSet<>();
         for (JsonNode row : rows) {
-            int kod = row.get("kod").intValue();
+            String kod = row.get("kod").textValue();
             String ertek = row.get("ertek").textValue();
-            okmanyTipusok.add(new OkmanyTipus(kod, ertek));
+            okmanyTipusok.add(new OkmanyTipus(Integer.parseInt(kod), ertek));
         }
         return okmanyTipusok;
     }
 
-    private JsonNode getRowsFromJson(File file, ObjectMapper objectMapper) throws IOException {
-        JsonNode jsonDict = objectMapper.readTree(file);
+    private JsonNode getRowsFromJson(InputStream inputStream, ObjectMapper objectMapper) throws IOException {
+        JsonNode jsonDict = objectMapper.readTree(inputStream);
         JsonNode rows = jsonDict.get("rows");
         if (rows == null || rows.isNull() || !rows.isArray()) {
             throw new IOException("Érvénytelen formátumú okmánytípus kódszótár");

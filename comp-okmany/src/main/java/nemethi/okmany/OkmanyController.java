@@ -16,6 +16,7 @@ import java.util.Objects;
 import static org.springframework.http.HttpStatus.OK;
 import static org.springframework.http.HttpStatus.UNPROCESSABLE_ENTITY;
 import static org.springframework.http.MediaType.APPLICATION_JSON_UTF8_VALUE;
+import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
 public class OkmanyController {
@@ -27,7 +28,9 @@ public class OkmanyController {
         this.okmanyValidator = Objects.requireNonNull(okmanyValidator, "okmanyValidator");
     }
 
-    @PostMapping(path = "/validate", consumes = APPLICATION_JSON_UTF8_VALUE, produces = APPLICATION_JSON_UTF8_VALUE)
+    @PostMapping(path = "/validate",
+            consumes = {APPLICATION_JSON_VALUE, APPLICATION_JSON_UTF8_VALUE},
+            produces = {APPLICATION_JSON_VALUE, APPLICATION_JSON_UTF8_VALUE})
     public ResponseEntity<OkmanyResponse> validateOkmany(@RequestBody OkmanyDTO okmany) {
         List<String> errors = okmanyValidator.validate(okmany);
         HttpStatus status;

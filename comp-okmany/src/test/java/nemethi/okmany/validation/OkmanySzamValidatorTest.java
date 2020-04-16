@@ -174,7 +174,7 @@ public class OkmanySzamValidatorTest {
 
     @Test
     public void validateReturnsErrorListOnInvalidIsmeretlen() {
-        when(okmany.getOkmTipus()).thenReturn(ISMERETLEN_TIPUS);
+        when(okmany.getOkmTipus()).thenReturn(null);
         when(okmany.getOkmanySzam()).thenReturn(null);
 
         // when

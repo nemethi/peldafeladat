@@ -25,7 +25,7 @@ public class OkmanySzamValidator implements Validator<OkmanyDTO> {
     @Override
     public List<String> validate(OkmanyDTO target) {
         List<String> errors = new ArrayList<>();
-        OkmanyTipus tipus = getTipusByCode(Integer.parseInt(target.getOkmTipus()));
+        OkmanyTipus tipus = getTipusByKod(target.getOkmTipus());
         if (tipus == null) {
             errors.add("Ismeretlen okmánytípus");
             tipus = new OkmanyTipus(Integer.MAX_VALUE, "Ismeretlen okmány");
@@ -61,7 +61,13 @@ public class OkmanySzamValidator implements Validator<OkmanyDTO> {
         return Collections.emptyList();
     }
 
-    private OkmanyTipus getTipusByCode(int code) {
+    private OkmanyTipus getTipusByKod(String kod) {
+        int code;
+        try {
+            code = Integer.parseInt(kod);
+        } catch (NumberFormatException e) {
+            return null;
+        }
         for (OkmanyTipus tipus : okmanyTipusok) {
             if (tipus.getKod() == code) {
                 return tipus;
