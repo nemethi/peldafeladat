@@ -15,7 +15,6 @@ import java.util.Date;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.MockitoAnnotations.initMocks;
 
 public class OkmanyErvenyessegValidatorTest {
 
@@ -28,7 +27,6 @@ public class OkmanyErvenyessegValidatorTest {
 
     @Before
     public void setUp() {
-        initMocks(this);
         validator = new OkmanyErvenyessegValidator(NOW);
     }
 
