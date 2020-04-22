@@ -1,9 +1,10 @@
-package nemethi.okmany;
+package model;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.util.Lists.list;
 
 
 public class OkmanyTipusTest {
@@ -65,5 +66,56 @@ public class OkmanyTipusTest {
     public void toStringContainsTheFieldNamesAndValues() {
         String string = okmanyTipus.toString();
         assertThat(string).contains("kod", String.valueOf(KOD), "ertek", ERTEK);
+    }
+
+    @Test
+    public void getTipusByKodReturnsFirstResult() {
+        // given
+        OkmanyTipus tipus1 = new OkmanyTipus(1, "value1");
+        OkmanyTipus tipus2 = new OkmanyTipus(2, "value2");
+        OkmanyTipus tipus1Duplicate = new OkmanyTipus(1, "value3");
+
+        // when
+        OkmanyTipus result = OkmanyTipus.getTipusByKod(list(tipus1, tipus2, tipus1Duplicate), "1");
+
+        // then
+        assertThat(result).isEqualTo(tipus1);
+    }
+
+    @Test
+    public void getTipusByKodReturnsNullOnNoMatch() {
+        // given
+        OkmanyTipus tipus1 = new OkmanyTipus(1, "value1");
+        OkmanyTipus tipus2 = new OkmanyTipus(2, "value2");
+
+        // when
+        OkmanyTipus result = OkmanyTipus.getTipusByKod(list(tipus1, tipus2), "3");
+
+        // then
+        assertThat(result).isNull();
+    }
+
+    @Test
+    public void getTipusByKodReturnsNullOnNonNumericKod() {
+        // given
+        OkmanyTipus tipus = new OkmanyTipus(1, "value1");
+
+        // when
+        OkmanyTipus result = OkmanyTipus.getTipusByKod(list(tipus), "abc");
+
+        // then
+        assertThat(result).isNull();
+    }
+
+    @Test
+    public void getTipusByKodReturnsNullOnNullKod() {
+        // given
+        OkmanyTipus tipus = new OkmanyTipus(1, "value1");
+
+        // when
+        OkmanyTipus result = OkmanyTipus.getTipusByKod(list(tipus), null);
+
+        // then
+        assertThat(result).isNull();
     }
 }

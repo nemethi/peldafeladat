@@ -1,9 +1,10 @@
-package nemethi.okmany;
+package model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.Collection;
 import java.util.Objects;
 
 public class OkmanyTipus {
@@ -51,5 +52,20 @@ public class OkmanyTipus {
                 "kod='" + kod + '\'' +
                 ", ertek='" + ertek + '\'' +
                 '}';
+    }
+
+    public static OkmanyTipus getTipusByKod(Collection<? extends OkmanyTipus> collection, String kod) {
+        int code;
+        try {
+            code = Integer.parseInt(kod);
+        } catch (NumberFormatException e) {
+            return null;
+        }
+        for (OkmanyTipus tipus : collection) {
+            if (tipus.getKod() == code) {
+                return tipus;
+            }
+        }
+        return null;
     }
 }

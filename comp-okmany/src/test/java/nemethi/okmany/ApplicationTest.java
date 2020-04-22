@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeType;
 import com.fasterxml.jackson.databind.node.TextNode;
 import com.mycompany.mavenproject1.OkmanyDTO;
+import model.OkmanyTipus;
 import nemethi.okmany.validation.ImageConverter;
 import org.junit.Before;
 import org.junit.Rule;

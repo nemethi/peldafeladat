@@ -3,6 +3,7 @@ package nemethi.okmany;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mycompany.mavenproject1.OkmanyDTO;
+import model.OkmanyTipus;
 import nemethi.okmany.validation.ImageConverter;
 import nemethi.okmany.validation.JpegImageConverter;
 import nemethi.okmany.validation.OkmanyErvenyessegValidator;

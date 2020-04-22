@@ -1,7 +1,7 @@
 package nemethi.okmany.validation;
 
 import com.mycompany.mavenproject1.OkmanyDTO;
-import nemethi.okmany.OkmanyTipus;
+import model.OkmanyTipus;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

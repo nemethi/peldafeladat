@@ -1,7 +1,7 @@
 package nemethi.okmany.validation;
 
 import com.mycompany.mavenproject1.OkmanyDTO;
-import nemethi.okmany.OkmanyTipus;
+import model.OkmanyTipus;
 import validation.Validator;
 
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ public class OkmanySzamValidator implements Validator<OkmanyDTO> {
     @Override
     public List<String> validate(OkmanyDTO target) {
         List<String> errors = new ArrayList<>();
-        OkmanyTipus tipus = getTipusByKod(target.getOkmTipus());
+        OkmanyTipus tipus = OkmanyTipus.getTipusByKod(okmanyTipusok, target.getOkmTipus());
         if (tipus == null) {
             errors.add("Ismeretlen okmánytípus");
             tipus = new OkmanyTipus(Integer.MAX_VALUE, "Ismeretlen okmány");
@@ -59,20 +59,5 @@ public class OkmanySzamValidator implements Validator<OkmanyDTO> {
             return Collections.singletonList(String.format(INVALID_NUMBER_MESSAGE, okmanyNev));
         }
         return Collections.emptyList();
-    }
-
-    private OkmanyTipus getTipusByKod(String kod) {
-        int code;
-        try {
-            code = Integer.parseInt(kod);
-        } catch (NumberFormatException e) {
-            return null;
-        }
-        for (OkmanyTipus tipus : okmanyTipusok) {
-            if (tipus.getKod() == code) {
-                return tipus;
-            }
-        }
-        return null;
     }
 }

@@ -13,7 +13,7 @@ public class AllampolgarsagTest {
     private Allampolgarsag allampolgarsag;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         allampolgarsag = new Allampolgarsag(KOD, ALLAMPOLG);
     }
 
