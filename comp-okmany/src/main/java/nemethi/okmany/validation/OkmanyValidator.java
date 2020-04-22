@@ -1,7 +1,7 @@
 package nemethi.okmany.validation;
 
 import com.mycompany.mavenproject1.OkmanyDTO;
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
-import static util.ByteUtils.bytesToList;
+import static nemethi.util.ByteUtils.bytesToList;
 
 public class OkmanyValidator implements Validator<OkmanyDTO> {
 

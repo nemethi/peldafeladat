@@ -1,7 +1,7 @@
 package nemethi.szemely.validation;
 
 import nemethi.szemely.Allampolgarsag;
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.util.Collection;
 import java.util.Collections;

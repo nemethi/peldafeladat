@@ -1,6 +1,6 @@
 package nemethi.okmany.validation;
 
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.time.Clock;
 import java.time.LocalDate;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 import static java.time.LocalDate.now;
-import static util.DateUtils.dateToLocalDate;
+import static nemethi.util.DateUtils.dateToLocalDate;
 
 public class OkmanyErvenyessegValidator implements Validator<Date> {
 

@@ -6,7 +6,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.mockito.Mock;
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.util.Arrays;
 import java.util.Collections;

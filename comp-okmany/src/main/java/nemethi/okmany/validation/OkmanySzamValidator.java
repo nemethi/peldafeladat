@@ -1,8 +1,8 @@
 package nemethi.okmany.validation;
 
 import com.mycompany.mavenproject1.OkmanyDTO;
-import model.OkmanyTipus;
-import validation.Validator;
+import nemethi.model.OkmanyTipus;
+import nemethi.validation.Validator;
 
 import java.util.ArrayList;
 import java.util.Collection;

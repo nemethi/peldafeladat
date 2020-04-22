@@ -3,7 +3,7 @@ package nemethi.okmany;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mycompany.mavenproject1.OkmanyDTO;
-import model.OkmanyTipus;
+import nemethi.model.OkmanyTipus;
 import nemethi.okmany.validation.ImageConverter;
 import nemethi.okmany.validation.JpegImageConverter;
 import nemethi.okmany.validation.OkmanyErvenyessegValidator;
@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.io.IOException;
 import java.io.InputStream;

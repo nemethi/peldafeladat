@@ -1,4 +1,4 @@
-package model;
+package nemethi.model;
 
 import org.junit.Before;
 import org.junit.Test;

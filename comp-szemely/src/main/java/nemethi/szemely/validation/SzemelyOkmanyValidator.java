@@ -1,7 +1,7 @@
 package nemethi.szemely.validation;
 
 import com.mycompany.mavenproject1.OkmanyDTO;
-import model.OkmanyTipus;
+import nemethi.model.OkmanyTipus;
 import nemethi.response.OkmanyResponse;
 import nemethi.szemely.OkmanyServiceClient;
 

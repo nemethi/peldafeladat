@@ -1,6 +1,6 @@
 package nemethi.okmany.validation;
 
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-import static util.ByteUtils.listToBytes;
+import static nemethi.util.ByteUtils.listToBytes;
 
 public class OkmanyKepValidator implements Validator<List<Byte>> {
 

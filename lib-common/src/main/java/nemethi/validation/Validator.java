@@ -1,4 +1,4 @@
-package validation;
+package nemethi.validation;
 
 import java.util.List;
 

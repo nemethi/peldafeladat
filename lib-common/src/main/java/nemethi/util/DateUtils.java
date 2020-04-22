@@ -1,4 +1,4 @@
-package util;
+package nemethi.util;
 
 import java.time.LocalDate;
 import java.time.ZoneId;

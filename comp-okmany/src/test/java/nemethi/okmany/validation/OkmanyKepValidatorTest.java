@@ -18,7 +18,7 @@ import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
 import static org.mockito.MockitoAnnotations.initMocks;
-import static util.ByteUtils.bytesToList;
+import static nemethi.util.ByteUtils.bytesToList;
 
 public class OkmanyKepValidatorTest {
 

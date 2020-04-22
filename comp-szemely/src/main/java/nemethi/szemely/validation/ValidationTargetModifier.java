@@ -1,6 +1,6 @@
 package nemethi.szemely.validation;
 
-import validation.Validator;
+import nemethi.validation.Validator;
 
 public interface ValidationTargetModifier<T> extends Validator<T> {
 

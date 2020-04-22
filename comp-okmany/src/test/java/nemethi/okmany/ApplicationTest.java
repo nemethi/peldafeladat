@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeType;
 import com.fasterxml.jackson.databind.node.TextNode;
 import com.mycompany.mavenproject1.OkmanyDTO;
-import model.OkmanyTipus;
+import nemethi.model.OkmanyTipus;
 import nemethi.okmany.validation.ImageConverter;
 import org.junit.Before;
 import org.junit.Rule;
@@ -15,7 +15,7 @@ import org.junit.rules.ExpectedException;
 import org.mockito.Mock;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package util;
+package nemethi.util;
 
 
 import org.junit.Rule;

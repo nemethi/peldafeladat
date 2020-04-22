@@ -9,7 +9,7 @@ import org.junit.rules.ExpectedException;
 import org.mockito.Mock;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import validation.Validator;
+import nemethi.validation.Validator;
 
 import java.util.Collections;
 
