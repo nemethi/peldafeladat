@@ -73,7 +73,6 @@ public class SzemelyKorValidatorTest {
         List<String> errors = validator.validate(DATE_FORMAT.parse("2002-01-02"));
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly(ERROR_MESSAGE);
     }
 
@@ -83,7 +82,6 @@ public class SzemelyKorValidatorTest {
         List<String> errors = validator.validate(DATE_FORMAT.parse("1899-01-01"));
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly(ERROR_MESSAGE);
     }
 }

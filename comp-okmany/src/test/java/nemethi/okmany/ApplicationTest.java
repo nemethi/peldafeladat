@@ -141,7 +141,6 @@ public class ApplicationTest {
         Collection<OkmanyTipus> okmanyTipusok = application.okmanyTipusok(PATH, objectMapper, resourceLoader);
 
         // then
-        assertThat(okmanyTipusok).hasSize(1);
         assertThat(okmanyTipusok).containsExactly(new OkmanyTipus(Integer.parseInt(kod), ertek));
         verify(resourceLoader).getResource(PATH);
         verify(resource).getInputStream();

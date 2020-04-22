@@ -73,14 +73,12 @@ public class OkmanyKepValidatorTest {
         List<String> errors = validator.validate(bytesToList(INVALID_HEADER_IMAGE));
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("A kép nem JPEG típusú");
 
         // when
         errors = validator.validate(bytesToList(INVALID_FOOTER_IMAGE));
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("A kép nem JPEG típusú");
         verifyNoInteractions(imageConverter, image);
     }
@@ -95,7 +93,6 @@ public class OkmanyKepValidatorTest {
         List<String> errors = validator.validate(bytesToList(VALID_JPEG_IMAGE));
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("A kép mérete nem 827x1063");
         verify(imageConverter).convertBytesToImage(VALID_JPEG_IMAGE);
         verify(image).getWidth();
@@ -114,7 +111,6 @@ public class OkmanyKepValidatorTest {
         List<String> errors = validator.validate(bytesToList(VALID_JPEG_IMAGE));
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("A kép mérete nem 827x1063");
         verify(imageConverter).convertBytesToImage(VALID_JPEG_IMAGE);
         verify(image).getWidth();
@@ -131,7 +127,6 @@ public class OkmanyKepValidatorTest {
         List<String> errors = validator.validate(bytesToList(VALID_JPEG_IMAGE));
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Hibás, olvashatatlan kép");
         verify(imageConverter).convertBytesToImage(VALID_JPEG_IMAGE);
         verifyNoMoreInteractions(imageConverter);

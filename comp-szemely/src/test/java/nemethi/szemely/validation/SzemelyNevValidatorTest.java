@@ -49,7 +49,6 @@ public class SzemelyNevValidatorTest {
         List<String> errors = validator.validate("Kovács");
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly(INVALID_NAME_MESSAGE);
     }
 
@@ -59,7 +58,6 @@ public class SzemelyNevValidatorTest {
         List<String> errors = validator.validate(TOO_LONG_NAME);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly(TOO_LONG_NAME_MESSAGE);
     }
 
@@ -84,7 +82,6 @@ public class SzemelyNevValidatorTest {
         errors = validator.validate("Dr. Kovács");
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly(INVALID_NAME_MESSAGE);
     }
 
@@ -100,7 +97,6 @@ public class SzemelyNevValidatorTest {
         errors = validator.validate("Kovács Dr.");
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly(INVALID_NAME_MESSAGE);
     }
 

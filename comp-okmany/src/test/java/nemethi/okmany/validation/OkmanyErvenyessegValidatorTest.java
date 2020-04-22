@@ -70,7 +70,6 @@ public class OkmanyErvenyessegValidatorTest {
         List<String> errors = validator.validate(past);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Az okmány érvényessége lejárt");
     }
 }

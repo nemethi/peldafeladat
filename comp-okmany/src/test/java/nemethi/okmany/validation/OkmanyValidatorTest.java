@@ -103,7 +103,6 @@ public class OkmanyValidatorTest {
         List<String> errors = validator.validate(target);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Hiányzó okmánykép");
         verify(szamValidator).validate(target);
         verify(target).getOkmanyKep();
@@ -126,7 +125,6 @@ public class OkmanyValidatorTest {
         List<String> errors = validator.validate(target);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Hiányzó okmánykép");
         verify(szamValidator).validate(target);
         verify(target, times(2)).getOkmanyKep();
@@ -149,7 +147,6 @@ public class OkmanyValidatorTest {
         List<String> errors = validator.validate(target);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Hiányzó lejárati idő");
         verify(szamValidator).validate(target);
         verify(target, times(3)).getOkmanyKep();
@@ -173,7 +170,6 @@ public class OkmanyValidatorTest {
         List<String> errors = validator.validate(target);
 
         // then
-        assertThat(errors).hasSize(3);
         assertThat(errors).containsExactly("szamValidator", "kepValidator", "ervenyessegValidator");
         verify(szamValidator).validate(target);
         verify(target, times(3)).getOkmanyKep();

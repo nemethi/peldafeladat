@@ -25,7 +25,6 @@ public class ByteUtilsTest {
         byte[] bytes = ByteUtils.listToBytes(list);
 
         // then
-        assertThat(bytes).hasSize(list.size());
         assertThat(bytes).containsExactly((byte) 0, (byte) 1);
     }
 
@@ -55,7 +54,6 @@ public class ByteUtilsTest {
         List<Byte> list = ByteUtils.bytesToList(bytes);
 
         // then
-        assertThat(list).hasSize(bytes.length);
         assertThat(list).containsExactly((byte) 0, (byte) 1);
     }
 

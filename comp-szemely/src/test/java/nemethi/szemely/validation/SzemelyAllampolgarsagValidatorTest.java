@@ -48,7 +48,6 @@ public class SzemelyAllampolgarsagValidatorTest {
         List<String> errors = validator.validate("ABC");
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Érvénytelen állampolgárság");
     }
 }

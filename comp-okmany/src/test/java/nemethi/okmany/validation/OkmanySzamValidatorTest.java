@@ -72,7 +72,6 @@ public class OkmanySzamValidatorTest {
         List<String> errors = validator.validate(okmany);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Érvénytelen Személyi igazolvány szám");
         verifyOkmanyInteractions();
     }
@@ -99,7 +98,6 @@ public class OkmanySzamValidatorTest {
         List<String> errors = validator.validate(okmany);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Érvénytelen Útlevél szám");
         verifyOkmanyInteractions();
     }
@@ -126,7 +124,6 @@ public class OkmanySzamValidatorTest {
         List<String> errors = validator.validate(okmany);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Érvénytelen Vezetői engedély szám");
         verifyOkmanyInteractions();
     }
@@ -153,7 +150,6 @@ public class OkmanySzamValidatorTest {
         List<String> errors = validator.validate(okmany);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Érvénytelen Egyéb szám");
         verifyOkmanyInteractions();
     }
@@ -167,7 +163,6 @@ public class OkmanySzamValidatorTest {
         List<String> errors = validator.validate(okmany);
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Ismeretlen okmánytípus");
         verifyOkmanyInteractions();
     }
@@ -181,7 +176,6 @@ public class OkmanySzamValidatorTest {
         List<String> errors = validator.validate(okmany);
 
         // then
-        assertThat(errors).hasSize(2);
         assertThat(errors).containsExactly("Ismeretlen okmánytípus", "Érvénytelen Ismeretlen okmány szám");
         verifyOkmanyInteractions();
     }

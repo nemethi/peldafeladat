@@ -46,7 +46,6 @@ public class SzemelyNemValidatorTest {
         List<String> errors = validator.validate("X");
 
         // then
-        assertThat(errors).hasSize(1);
         assertThat(errors).containsExactly("Érvénytelen nem");
     }
 }
