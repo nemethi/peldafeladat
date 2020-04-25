@@ -63,21 +63,21 @@ public class OkmanyServiceClientTest {
     }
 
     @Test
-    public void constructorThrowsExceptionWhenUriIsNull() {
+    public void uriCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("uri");
         new OkmanyServiceClient(null, restTemplate, mapper);
     }
 
     @Test
-    public void constructorThrowsExceptionWhenRestTemplateIsNull() {
+    public void restTemplateCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("restTemplate");
         new OkmanyServiceClient(TEST_URI, null, mapper);
     }
 
     @Test
-    public void constructorThrowsExceptionWhenMapperIsNull() {
+    public void mapperCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("mapper");
         new OkmanyServiceClient(TEST_URI, restTemplate, null);

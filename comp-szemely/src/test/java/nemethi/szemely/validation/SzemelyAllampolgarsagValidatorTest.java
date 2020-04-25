@@ -27,7 +27,7 @@ public class SzemelyAllampolgarsagValidatorTest {
     }
 
     @Test
-    public void constructorThrowsExceptionOnNullCollection() {
+    public void collectionCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("collection");
         new SzemelyAllampolgarsagValidator(null);

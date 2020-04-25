@@ -53,14 +53,14 @@ public class SzemelyOkmanyValidatorTest {
     }
 
     @Test
-    public void constructorThrowsExceptionOnNullClient() {
+    public void clientCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("client");
         new SzemelyOkmanyValidator(null, emptyList());
     }
 
     @Test
-    public void constructorThrowsExceptionOnNullCollection() {
+    public void collectionCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("okmanyTipusok");
         new SzemelyOkmanyValidator(client, null);

@@ -29,7 +29,7 @@ public class SzemelyNevValidatorTest {
     }
 
     @Test
-    public void constructorThrowsExceptionWhenNameTypeIsNull() {
+    public void nameTypeCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("nameType");
         new SzemelyNevValidator(null);

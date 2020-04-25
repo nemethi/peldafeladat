@@ -34,7 +34,7 @@ public class SzemelyKorValidatorTest {
     }
 
     @Test
-    public void constructorThrowsExceptionOnNullClock() {
+    public void clockCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("clock");
         new SzemelyKorValidator(null, 0, 1);

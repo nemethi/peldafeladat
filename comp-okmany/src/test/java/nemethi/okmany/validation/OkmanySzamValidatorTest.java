@@ -29,9 +29,9 @@ public class OkmanySzamValidatorTest {
     private static final String VALID_SZEMELYI_NUMBER = "123456AB";
     private static final String VALID_UTLEVEL_NUMBER = "AB1234567";
     private static final String VALID_NUMBER = "123ABC";
+    private static final Collection<OkmanyTipus> OKMANY_TIPUSOK = initOkmanyTipusok();
 
     private OkmanySzamValidator validator;
-    private Collection<OkmanyTipus> okmanyTipusok = initOkmanyTipusok();
     @Mock
     private OkmanyDTO okmany;
     @Rule
@@ -40,7 +40,7 @@ public class OkmanySzamValidatorTest {
     @Before
     public void setUp() {
         initMocks(this);
-        validator = new OkmanySzamValidator(okmanyTipusok);
+        validator = new OkmanySzamValidator(OKMANY_TIPUSOK);
     }
 
     @Test
@@ -186,7 +186,7 @@ public class OkmanySzamValidatorTest {
         verifyNoMoreInteractions(okmany);
     }
 
-    private Collection<OkmanyTipus> initOkmanyTipusok() {
+    private static Collection<OkmanyTipus> initOkmanyTipusok() {
         OkmanyTipus szemelyi = new OkmanyTipus(1, "Személyi igazolvány");
         OkmanyTipus utlevel = new OkmanyTipus(2, "Útlevél");
         OkmanyTipus vezetoiEngedely = new OkmanyTipus(3, "Vezetői engedély");

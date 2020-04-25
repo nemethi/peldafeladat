@@ -25,14 +25,14 @@ public class SzemelyNemValidatorTest {
     }
 
     @Test
-    public void constructorThrowsExceptionOnNullSexes() {
+    public void collectionCannotBeNull() {
         thrown.expect(NullPointerException.class);
-        thrown.expectMessage("sexes");
+        thrown.expectMessage("collection");
         new SzemelyNemValidator(null);
     }
 
     @Test
-    public void validateReturnsEmptyListIfSexIsFoundInSexes() {
+    public void validateReturnsEmptyListIfSexIsFoundInCollection() {
         // when
         List<String> errors = validator.validate("N");
 
@@ -41,7 +41,7 @@ public class SzemelyNemValidatorTest {
     }
 
     @Test
-    public void validateReturnsErrorListWhenSexIsNotFoundInSexes() {
+    public void validateReturnsErrorListWhenSexIsNotFoundInCollection() {
         // when
         List<String> errors = validator.validate("X");
 

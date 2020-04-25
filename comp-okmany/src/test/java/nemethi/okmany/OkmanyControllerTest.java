@@ -39,7 +39,7 @@ public class OkmanyControllerTest {
     }
 
     @Test
-    public void controllerThrowsExceptionOnNullValidator() {
+    public void validatorCannotBeNull() {
         thrown.expect(NullPointerException.class);
         thrown.expectMessage("okmanyValidator");
         controller = new OkmanyController(null);

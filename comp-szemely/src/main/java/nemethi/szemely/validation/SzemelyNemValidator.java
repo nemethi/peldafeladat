@@ -11,8 +11,8 @@ public class SzemelyNemValidator implements Validator<String> {
 
     private final Collection<String> sexes;
 
-    public SzemelyNemValidator(Collection<String> sexes) {
-        this.sexes = Objects.requireNonNull(sexes, "sexes");
+    public SzemelyNemValidator(Collection<String> collection) {
+        this.sexes = Objects.requireNonNull(collection, "collection");
     }
 
     @Override
