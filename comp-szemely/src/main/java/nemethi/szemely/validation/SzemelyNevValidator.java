@@ -1,17 +1,15 @@
 package nemethi.szemely.validation;
 
-import nemethi.validation.Validator;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class SzemelyNevValidator implements Validator<String> {
+public class SzemelyNevValidator implements NameTypeValidator<String, String> {
 
     private static final String NEV_PATTERN = "([a-zA-ZäáéíóöőúüűÄÁÉÍÓÖŐÚÜŰ./'\\-]+) ( ?([a-zA-ZäáéíóöőúüűÄÁÉÍÓÖŐÚÜŰ./'\\-]+))+";
     private static final String INVALID_NAME_MESSAGE = "Érvénytelen %s név";
     private static final String TOO_LONG_NAME_MESSAGE = "Túl hosszú %s név";
-    private final String nameType;
+    private String nameType;
 
     public SzemelyNevValidator(String nameType) {
         this.nameType = Objects.requireNonNull(nameType, "nameType");
@@ -41,5 +39,15 @@ public class SzemelyNevValidator implements Validator<String> {
         }
 
         return name.trim();
+    }
+
+    @Override
+    public String getNameType() {
+        return nameType;
+    }
+
+    @Override
+    public void setNameType(String nameType) {
+        this.nameType = nameType;
     }
 }

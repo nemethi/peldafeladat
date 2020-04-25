@@ -16,6 +16,7 @@ public class SzemelyNevValidatorTest {
     private static final String TOO_LONG_NAME_MESSAGE = "Túl hosszú viselt név";
     private static final String TOO_LONG_NAME = repeat("A", 40) + " " + repeat("B", 40);
     private static final String NAME_WITH_SPECIAL_CHARS = "Kovács-Szäbó D. Ödön/Péter L'Äuren";
+    private static final String VISELT_NAME_TYPE = "viselt";
 
     @Rule
     public ExpectedException thrown = ExpectedException.none();
@@ -24,7 +25,7 @@ public class SzemelyNevValidatorTest {
 
     @Before
     public void setUp() {
-        validator = new SzemelyNevValidator("viselt");
+        validator = new SzemelyNevValidator(VISELT_NAME_TYPE);
     }
 
     @Test
@@ -107,6 +108,18 @@ public class SzemelyNevValidatorTest {
 
         // then
         assertThat(errors).isEmpty();
+    }
+
+    @Test
+    public void nameTypeCanBeSetAndRetrieved() {
+        // given
+        assertThat(validator.getNameType()).isEqualTo(VISELT_NAME_TYPE);
+
+        // when
+        validator.setNameType("születési");
+
+        // then
+        assertThat(validator.getNameType()).isEqualTo("születési");
     }
 
     private static String repeat(String string, int times) {
