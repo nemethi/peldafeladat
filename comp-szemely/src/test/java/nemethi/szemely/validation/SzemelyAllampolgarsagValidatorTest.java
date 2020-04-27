@@ -1,6 +1,6 @@
 package nemethi.szemely.validation;
 
-import nemethi.szemely.Allampolgarsag;
+import nemethi.model.Allampolgarsag;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

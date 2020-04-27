@@ -1,5 +1,6 @@
 package nemethi.szemely;
 
+import nemethi.model.Allampolgarsag;
 import org.junit.Before;
 import org.junit.Test;
 

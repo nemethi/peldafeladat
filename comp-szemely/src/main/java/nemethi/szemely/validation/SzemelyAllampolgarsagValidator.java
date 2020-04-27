@@ -1,6 +1,6 @@
 package nemethi.szemely.validation;
 
-import nemethi.szemely.Allampolgarsag;
+import nemethi.model.Allampolgarsag;
 import nemethi.validation.Validator;
 
 import java.util.Collection;

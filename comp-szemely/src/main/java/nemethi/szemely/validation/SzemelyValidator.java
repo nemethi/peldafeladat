@@ -2,7 +2,7 @@ package nemethi.szemely.validation;
 
 import com.mycompany.mavenproject1.OkmanyDTO;
 import com.mycompany.mavenproject1.SzemelyDTO;
-import nemethi.szemely.Allampolgarsag;
+import nemethi.model.Allampolgarsag;
 import nemethi.validation.Validator;
 
 import java.util.ArrayList;
