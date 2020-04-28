@@ -5,14 +5,16 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.util.Lists.list;
+import static org.assertj.core.util.Sets.newHashSet;
 
 public class SzemelyNemValidatorTest {
 
-    private static final List<String> SEXES = Arrays.asList("F", "N");
+    private static final Set<String> SEXES = newHashSet(list("F", "N"));
 
     @Rule
     public ExpectedException thrown = ExpectedException.none();

@@ -2,16 +2,16 @@ package nemethi.szemely.validation;
 
 import nemethi.validation.Validator;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 public class SzemelyNemValidator implements Validator<String> {
 
-    private final Collection<String> sexes;
+    private final Set<String> sexes;
 
-    public SzemelyNemValidator(Collection<String> collection) {
+    public SzemelyNemValidator(Set<String> collection) {
         this.sexes = Objects.requireNonNull(collection, "collection");
     }
 
