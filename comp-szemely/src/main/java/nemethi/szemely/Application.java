@@ -21,10 +21,12 @@ import nemethi.validation.Validator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
@@ -60,13 +62,13 @@ public class Application extends SpringApplication {
 
     @Bean
     public Validator<Date> korValidator(Clock clock,
-                                        @Value("${szemely.age.min}") int minAge,
-                                        @Value("${szemely.age.max}") int maxAge) {
+                                        @Value("${szemely.age.min:18}") int minAge,
+                                        @Value("${szemely.age.max:120}") int maxAge) {
         return new SzemelyKorValidator(clock, minAge, maxAge);
     }
 
     @Bean
-    public Validator<String> nemValidator(@Value("${szemely.nemek}") Set<String> nemek) {
+    public Validator<String> nemValidator(@Value("${szemely.nemek:F,N}") Set<String> nemek) {
         return new SzemelyNemValidator(nemek);
     }
 
@@ -87,8 +89,10 @@ public class Application extends SpringApplication {
     }
 
     @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
+    public RestTemplate restTemplate(MappingJackson2HttpMessageConverter messageConverter) {
+        return new RestTemplateBuilder()
+                .messageConverters(messageConverter)
+                .build();
     }
 
     @Bean
@@ -120,6 +124,13 @@ public class Application extends SpringApplication {
     @Bean
     public AllampolgarsagMapper allampolgarsagMapper(ObjectMapper objectMapper) {
         return new AllampolgarsagSetMapper(objectMapper);
+    }
+
+    @Bean
+    public MappingJackson2HttpMessageConverter messageConverter(ObjectMapper objectMapper) {
+        MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter();
+        converter.setObjectMapper(objectMapper);
+        return converter;
     }
 
     @Bean

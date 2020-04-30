@@ -82,7 +82,7 @@ public class OkmanyControllerIT {
     }
 
     @Test
-    public void controllerReturnsUnprocessablyEntityWithErroListOnContentWithAllNullData() throws Exception {
+    public void controllerReturnsUnprocessableEntityWithErroListOnContentWithAllNullData() throws Exception {
         // given
         OkmanyDTO okmany = createOkmany(null, null, null, null, false);
         OkmanyDTO expectedOkmany = copyOkmany(okmany);

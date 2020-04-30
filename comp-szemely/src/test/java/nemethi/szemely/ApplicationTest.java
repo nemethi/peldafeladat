@@ -19,6 +19,7 @@ import org.junit.rules.ExpectedException;
 import org.mockito.Mock;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
@@ -81,6 +82,8 @@ public class ApplicationTest {
     private OkmanyTipusMapper okmanyTipusMapper;
     @Mock
     private AllampolgarsagMapper allampolgarsagMapper;
+    @Mock
+    private MappingJackson2HttpMessageConverter messageConverter;
 
     private Application application;
 
@@ -137,7 +140,7 @@ public class ApplicationTest {
 
     @Test
     public void restTemplateReturnsValidInstance() {
-        RestTemplate restTemplate = application.restTemplate();
+        RestTemplate restTemplate = application.restTemplate(messageConverter);
         assertThat(restTemplate).isNotNull();
     }
 
@@ -267,6 +270,16 @@ public class ApplicationTest {
         verify(resource).getInputStream();
         verify(allampolgarsagMapper).readToCollection(inputStream);
         verifyNoMoreInteractions(resourceLoader, resource, allampolgarsagMapper);
+    }
+
+    @Test
+    public void messageConverterReturnsValidInstance() {
+        // when
+        MappingJackson2HttpMessageConverter messageConverter = application.messageConverter(objectMapper);
+
+        // then
+        assertThat(messageConverter.getObjectMapper()).isEqualTo(objectMapper);
+        verifyNoInteractions(objectMapper);
     }
 
     @Test
