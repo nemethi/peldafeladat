@@ -42,13 +42,16 @@ public class SzemelyOkmanyValidator implements ValidationTargetModifier<List<Okm
             }
         }
         validateInvoked = true;
+        validOkmanyTipusok.clear();
         return errors;
     }
 
     @Override
     public List<OkmanyDTO> getModifiedTarget() {
         if (validateInvoked) {
-            return new ArrayList<>(validatedOkmanyList);
+            ArrayList<OkmanyDTO> modifiedTarget = new ArrayList<>(validatedOkmanyList);
+            validatedOkmanyList.clear();
+            return modifiedTarget;
         }
         throw new IllegalStateException("This method must be invoked after validate()");
     }

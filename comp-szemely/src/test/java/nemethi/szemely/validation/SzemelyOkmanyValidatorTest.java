@@ -82,6 +82,7 @@ public class SzemelyOkmanyValidatorTest {
         // then
         assertThat(errors).isEmpty();
         assertThat(okmanyList).containsExactly(validatedOkmany1, validatedOkmany2);
+        assertThat(validator.getModifiedTarget()).isEmpty();
         verify(client).sendOkmany(okmany1);
         verify(client).sendOkmany(okmany2);
         verify(response, times(2)).getOkmany();

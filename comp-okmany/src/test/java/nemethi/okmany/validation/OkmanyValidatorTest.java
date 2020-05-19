@@ -83,7 +83,7 @@ public class OkmanyValidatorTest {
         // then
         assertThat(errors).isEmpty();
         verify(szamValidator).validate(target);
-        verify(target, times(3)).getOkmanyKep();
+        verify(target).getOkmanyKep();
         verify(kepValidator).validate(OKMANYKEP_LIST);
         verify(target, times(2)).getLejarDat();
         verify(ervenyessegValidator).validate(LEJAR_DATE);
@@ -115,24 +115,12 @@ public class OkmanyValidatorTest {
 
     @Test
     public void validateReturnsErrorListOnZeroLengthOkmanyKep() {
-        // given
-        when(szamValidator.validate(target)).thenReturn(Collections.emptyList());
-        when(target.getOkmanyKep()).thenReturn(new byte[0]);
-        when(target.getLejarDat()).thenReturn(LEJAR_DATE);
-        when(ervenyessegValidator.validate(LEJAR_DATE)).thenReturn(Collections.emptyList());
+        validateReturnsErrorListOnTooShortOkmanyKep(0, "Hiányzó okmánykép");
+    }
 
-        // when
-        List<String> errors = validator.validate(target);
-
-        // then
-        assertThat(errors).containsExactly("Hiányzó okmánykép");
-        verify(szamValidator).validate(target);
-        verify(target, times(2)).getOkmanyKep();
-        verify(kepValidator, never()).validate(any());
-        verify(target, times(2)).getLejarDat();
-        verify(ervenyessegValidator).validate(LEJAR_DATE);
-        verify(target).setErvenyes(true);
-        verifyNoMoreInteractions(target, szamValidator, kepValidator, ervenyessegValidator);
+    @Test
+    public void validateReturnsErrorListOnOneByteLongOkmanyKep() {
+        validateReturnsErrorListOnTooShortOkmanyKep(1, "Hibás, olvashatatlan kép");
     }
 
     @Test
@@ -149,7 +137,7 @@ public class OkmanyValidatorTest {
         // then
         assertThat(errors).containsExactly("Hiányzó lejárati idő");
         verify(szamValidator).validate(target);
-        verify(target, times(3)).getOkmanyKep();
+        verify(target).getOkmanyKep();
         verify(kepValidator).validate(OKMANYKEP_LIST);
         verify(target).getLejarDat();
         verify(target).setErvenyes(false);
@@ -172,11 +160,32 @@ public class OkmanyValidatorTest {
         // then
         assertThat(errors).containsExactly("szamValidator", "kepValidator", "ervenyessegValidator");
         verify(szamValidator).validate(target);
-        verify(target, times(3)).getOkmanyKep();
+        verify(target).getOkmanyKep();
         verify(kepValidator).validate(OKMANYKEP_LIST);
         verify(target, times(2)).getLejarDat();
         verify(ervenyessegValidator).validate(LEJAR_DATE);
         verify(target).setErvenyes(false);
+        verifyNoMoreInteractions(target, szamValidator, kepValidator, ervenyessegValidator);
+    }
+
+    private void validateReturnsErrorListOnTooShortOkmanyKep(int size, String errorMessage) {
+        // given
+        when(szamValidator.validate(target)).thenReturn(Collections.emptyList());
+        when(target.getOkmanyKep()).thenReturn(new byte[size]);
+        when(target.getLejarDat()).thenReturn(LEJAR_DATE);
+        when(ervenyessegValidator.validate(LEJAR_DATE)).thenReturn(Collections.emptyList());
+
+        // when
+        List<String> errors = validator.validate(target);
+
+        // then
+        assertThat(errors).containsExactly(errorMessage);
+        verify(szamValidator).validate(target);
+        verify(target).getOkmanyKep();
+        verify(kepValidator, never()).validate(any());
+        verify(target, times(2)).getLejarDat();
+        verify(ervenyessegValidator).validate(LEJAR_DATE);
+        verify(target).setErvenyes(true);
         verifyNoMoreInteractions(target, szamValidator, kepValidator, ervenyessegValidator);
     }
 }

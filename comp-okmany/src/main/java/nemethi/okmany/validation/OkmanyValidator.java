@@ -34,10 +34,13 @@ public class OkmanyValidator implements Validator<OkmanyDTO> {
     }
 
     private List<String> validateKep(OkmanyDTO target) {
-        if (target.getOkmanyKep() == null || target.getOkmanyKep().length == 0) {
+        byte[] okmanyKep = target.getOkmanyKep();
+        if (okmanyKep == null || okmanyKep.length == 0) {
             return Collections.singletonList("Hiányzó okmánykép");
+        } else if (okmanyKep.length == 1) {
+            return Collections.singletonList("Hibás, olvashatatlan kép");
         } else {
-            List<Byte> byteList = bytesToList(target.getOkmanyKep());
+            List<Byte> byteList = bytesToList(okmanyKep);
             return kepValidator.validate(byteList);
         }
     }
