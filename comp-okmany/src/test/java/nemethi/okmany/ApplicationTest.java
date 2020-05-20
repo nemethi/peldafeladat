@@ -80,7 +80,8 @@ public class ApplicationTest {
 
     @Test
     public void szamValidatorReturnsValidInstance() {
-        Validator<OkmanyDTO> szamValidator = application.szamValidator(Collections.emptyList());
+        Validator<OkmanyDTO> szamValidator = application.szamValidator(
+                Collections.singletonList(new OkmanyTipus(1,"value")));
         assertThat(szamValidator).isNotNull();
     }
 

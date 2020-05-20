@@ -3,6 +3,7 @@ package nemethi.szemely.validation;
 import com.mycompany.mavenproject1.OkmanyDTO;
 import com.mycompany.mavenproject1.SzemelyDTO;
 import nemethi.model.Allampolgarsag;
+import nemethi.util.CollectionUtils;
 import nemethi.validation.Validator;
 
 import java.util.ArrayList;
@@ -36,7 +37,7 @@ public class SzemelyValidator implements Validator<SzemelyDTO> {
         this.allampolgarsagValidator = Objects.requireNonNull(allampolgarsagValidator, "allampolgarsagValidator");
         this.okmanyListValidator = Objects.requireNonNull(okmanyListValidator, "okmanyListValidator");
         this.allampolgarsagCollection = Objects.requireNonNull(allampolgarsagCollection, "allampolgarsagCollection");
-        requireNotEmpty(this.allampolgarsagCollection);
+        CollectionUtils.requireNonEmpty(this.allampolgarsagCollection, "empty allampolgarsagCollection");
     }
 
     @Override
@@ -104,11 +105,5 @@ public class SzemelyValidator implements Validator<SzemelyDTO> {
         List<String> errors = okmanyListValidator.validate(okmanyLista);
         szemely.setOkmLista(new ArrayList<>(okmanyListValidator.getModifiedTarget()));
         return errors;
-    }
-
-    private void requireNotEmpty(Collection<?> collection) {
-        if (collection.isEmpty()) {
-            throw new IllegalArgumentException("empty collection");
-        }
     }
 }

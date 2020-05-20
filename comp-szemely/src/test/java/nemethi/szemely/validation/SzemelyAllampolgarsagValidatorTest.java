@@ -7,9 +7,11 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.CoreMatchers.is;
 
 public class SzemelyAllampolgarsagValidatorTest {
 
@@ -29,8 +31,15 @@ public class SzemelyAllampolgarsagValidatorTest {
     @Test
     public void collectionCannotBeNull() {
         thrown.expect(NullPointerException.class);
-        thrown.expectMessage("collection");
+        thrown.expectMessage(is("collection"));
         new SzemelyAllampolgarsagValidator(null);
+    }
+
+    @Test
+    public void collectionCannotBeEmpty() {
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage(is("empty collection"));
+        new SzemelyAllampolgarsagValidator(Collections.emptyList());
     }
 
     @Test

@@ -2,6 +2,7 @@ package nemethi.okmany.validation;
 
 import com.mycompany.mavenproject1.OkmanyDTO;
 import nemethi.model.OkmanyTipus;
+import nemethi.util.CollectionUtils;
 import nemethi.validation.Validator;
 
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ public class OkmanySzamValidator implements Validator<OkmanyDTO> {
 
     public OkmanySzamValidator(Collection<OkmanyTipus> okmanyTipusok) {
         this.okmanyTipusok = Objects.requireNonNull(okmanyTipusok, "okmanyTipusok");
+        CollectionUtils.requireNonEmpty(okmanyTipusok, "empty okmanyTipusok");
     }
 
     @Override

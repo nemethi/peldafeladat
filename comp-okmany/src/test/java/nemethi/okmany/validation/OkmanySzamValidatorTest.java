@@ -10,9 +10,11 @@ import org.mockito.Mock;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.CoreMatchers.is;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
@@ -46,8 +48,15 @@ public class OkmanySzamValidatorTest {
     @Test
     public void okmanyTipusokCannotBeNull() {
         thrown.expect(NullPointerException.class);
-        thrown.expectMessage("okmanyTipusok");
-        validator = new OkmanySzamValidator(null);
+        thrown.expectMessage(is("okmanyTipusok"));
+        new OkmanySzamValidator(null);
+    }
+
+    @Test
+    public void okmanyTipusokCannotBeEmpty() {
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage(is("empty okmanyTipusok"));
+        new OkmanySzamValidator(Collections.emptyList());
     }
 
     @Test

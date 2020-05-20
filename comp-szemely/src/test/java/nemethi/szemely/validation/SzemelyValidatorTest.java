@@ -110,7 +110,7 @@ public class SzemelyValidatorTest {
     @Test
     public void collectionCannotBeEmpty() {
         thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("empty collection");
+        thrown.expectMessage("empty allampolgarsagCollection");
         new SzemelyValidator(nevValidator, korValidator, nemValidator, allampolgValidator, okmanyListValidator, emptyList());
     }
 

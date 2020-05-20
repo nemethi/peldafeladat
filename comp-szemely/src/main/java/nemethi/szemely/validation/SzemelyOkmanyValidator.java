@@ -4,6 +4,7 @@ import com.mycompany.mavenproject1.OkmanyDTO;
 import nemethi.model.OkmanyTipus;
 import nemethi.response.OkmanyResponse;
 import nemethi.szemely.OkmanyServiceClient;
+import nemethi.util.CollectionUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -26,6 +27,7 @@ public class SzemelyOkmanyValidator implements ValidationTargetModifier<List<Okm
     public SzemelyOkmanyValidator(OkmanyServiceClient client, Collection<OkmanyTipus> okmanyTipusok) {
         this.client = Objects.requireNonNull(client, "client");
         this.okmanyTipusok = Objects.requireNonNull(okmanyTipusok, "okmanyTipusok");
+        CollectionUtils.requireNonEmpty(this.okmanyTipusok, "empty okmanyTipusok");
         validOkmanyTipusok = new HashSet<>();
         validatedOkmanyList = new ArrayList<>();
     }

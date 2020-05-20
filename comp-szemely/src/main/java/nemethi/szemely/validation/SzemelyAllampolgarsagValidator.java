@@ -1,6 +1,7 @@
 package nemethi.szemely.validation;
 
 import nemethi.model.Allampolgarsag;
+import nemethi.util.CollectionUtils;
 import nemethi.validation.Validator;
 
 import java.util.Collection;
@@ -14,6 +15,7 @@ public class SzemelyAllampolgarsagValidator implements Validator<String> {
 
     public SzemelyAllampolgarsagValidator(Collection<Allampolgarsag> collection) {
         this.allampolgarsagCollection = Objects.requireNonNull(collection, "collection");
+        CollectionUtils.requireNonEmpty(this.allampolgarsagCollection, "empty collection");
     }
 
     @Override

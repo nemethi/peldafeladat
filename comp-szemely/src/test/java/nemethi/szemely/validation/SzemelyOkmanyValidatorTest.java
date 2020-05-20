@@ -11,11 +11,13 @@ import org.junit.rules.ExpectedException;
 import org.mockito.Mock;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.util.Lists.emptyList;
 import static org.assertj.core.util.Lists.list;
+import static org.hamcrest.CoreMatchers.is;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -62,8 +64,15 @@ public class SzemelyOkmanyValidatorTest {
     @Test
     public void collectionCannotBeNull() {
         thrown.expect(NullPointerException.class);
-        thrown.expectMessage("okmanyTipusok");
+        thrown.expectMessage(is("okmanyTipusok"));
         new SzemelyOkmanyValidator(client, null);
+    }
+
+    @Test
+    public void collectionCannotBeEmpty() {
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage(is("empty okmanyTipusok"));
+        new SzemelyOkmanyValidator(client, Collections.emptyList());
     }
 
     @Test
